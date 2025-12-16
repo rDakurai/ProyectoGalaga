@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 359b2d60479f50342b9e2ab479d5195b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4374297904031791965
+    second: nave_1_spritesheet_0
+  - first:
+      213: 5146396616157178748
+    second: nave_1_spritesheet_1
+  - first:
+      213: 5922941841440597496
+    second: nave_1_spritesheet_2
+  - first:
+      213: -8582540921304959355
+    second: nave_1_spritesheet_3
+  - first:
+      213: -7496237618011199251
+    second: nave_1_spritesheet_4
+  - first:
+      213: -2481472948325614302
+    second: nave_1_spritesheet_5
+  - first:
+      213: 5811629512270040645
+    second: nave_1_spritesheet_6
+  - first:
+      213: -5210032699220666516
+    second: nave_1_spritesheet_7
+  - first:
+      213: -3740472506155411033
+    second: nave_1_spritesheet_8
+  - first:
+      213: -5772741248259435067
+    second: nave_1_spritesheet_9
+  - first:
+      213: 7452256288025422649
+    second: nave_1_spritesheet_10
+  - first:
+      213: -8907852642779802530
+    second: nave_1_spritesheet_11
+  - first:
+      213: -400476560886362310
+    second: nave_1_spritesheet_12
+  - first:
+      213: 8275717689287080041
+    second: nave_1_spritesheet_13
+  - first:
+      213: 1637560385595036604
+    second: nave_1_spritesheet_14
+  - first:
+      213: 7048318736204851497
+    second: nave_1_spritesheet_15
+  - first:
+      213: 4745975691362667888
+    second: nave_1_spritesheet_16
+  - first:
+      213: -5298815550725303879
+    second: nave_1_spritesheet_17
+  - first:
+      213: -668121317042855864
+    second: nave_1_spritesheet_18
+  - first:
+      213: -413389625690627656
+    second: nave_1_spritesheet_19
+  - first:
+      213: -590846443921194521
+    second: nave_1_spritesheet_20
+  - first:
+      213: -18770174879565934
+    second: nave_1_spritesheet_21
+  - first:
+      213: 7544004603836053323
+    second: nave_1_spritesheet_22
+  - first:
+      213: 5071807919952460639
+    second: nave_1_spritesheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nave_1_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 726
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a403787b3f5b43c0800000000000000
+      internalID: -4374297904031791965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 366
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b2253a47cab6740800000000000000
+      internalID: 5146396616157178748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 0
+        width: 759
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f56d544934823250800000000000000
+      internalID: 5922941841440597496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 366
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5863d5b1180b4e880800000000000000
+      internalID: -8582540921304959355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 0
+        width: 759
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8a58a6a9308f790800000000000000
+      internalID: -7496237618011199251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 366
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d7f4b3089009dd0800000000000000
+      internalID: -2481472948325614302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 0
+        width: 784
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e4805004e07a050800000000000000
+      internalID: 5811629512270040645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 366
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6758ce2dde32b7b0800000000000000
+      internalID: -5210032699220666516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 273
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9dd72d21c271cc0800000000000000
+      internalID: -3740472506155411033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 244
+        width: 32
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c550458b6a13efa0800000000000000
+      internalID: -5772741248259435067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 273
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b2de63c9bbb6760800000000000000
+      internalID: 7452256288025422649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 240
+        width: 32
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54d59b9733f06480800000000000000
+      internalID: -8907852642779802530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 273
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f8f7f80b8317af0800000000000000
+      internalID: -400476560886362310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 238
+        width: 32
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9687f5b446149d270800000000000000
+      internalID: 8275717689287080041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 273
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3d4a99e78c9b610800000000000000
+      internalID: 1637560385595036604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3041
+        y: 235
+        width: 31
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92968370c88a0d160800000000000000
+      internalID: 7048318736204851497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 234
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d8f4cfeb71dd140800000000000000
+      internalID: 4745975691362667888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 234
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1d3b8b453d676b0800000000000000
+      internalID: -5298815550725303879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 234
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8406bc6b33b5ab6f0800000000000000
+      internalID: -668121317042855864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 226
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1e0ee5358534af0800000000000000
+      internalID: -413389625690627656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 150
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e146492a44ecc7f0800000000000000
+      internalID: -590846443921194521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 150
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2977ee910a05dbff0800000000000000
+      internalID: -18770174879565934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 150
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b473f83a730b1b860800000000000000
+      internalID: 7544004603836053323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nave_1_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 150
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b77cd7e6ea26640800000000000000
+      internalID: 5071807919952460639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nave_1_spritesheet_0: -4374297904031791965
+      nave_1_spritesheet_1: 5146396616157178748
+      nave_1_spritesheet_10: 7452256288025422649
+      nave_1_spritesheet_11: -8907852642779802530
+      nave_1_spritesheet_12: -400476560886362310
+      nave_1_spritesheet_13: 8275717689287080041
+      nave_1_spritesheet_14: 1637560385595036604
+      nave_1_spritesheet_15: 7048318736204851497
+      nave_1_spritesheet_16: 4745975691362667888
+      nave_1_spritesheet_17: -5298815550725303879
+      nave_1_spritesheet_18: -668121317042855864
+      nave_1_spritesheet_19: -413389625690627656
+      nave_1_spritesheet_2: 5922941841440597496
+      nave_1_spritesheet_20: -590846443921194521
+      nave_1_spritesheet_21: -18770174879565934
+      nave_1_spritesheet_22: 7544004603836053323
+      nave_1_spritesheet_23: 5071807919952460639
+      nave_1_spritesheet_3: -8582540921304959355
+      nave_1_spritesheet_4: -7496237618011199251
+      nave_1_spritesheet_5: -2481472948325614302
+      nave_1_spritesheet_6: 5811629512270040645
+      nave_1_spritesheet_7: -5210032699220666516
+      nave_1_spritesheet_8: -3740472506155411033
+      nave_1_spritesheet_9: -5772741248259435067
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
