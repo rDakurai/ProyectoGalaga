@@ -14,16 +14,16 @@ public class PlayerController : MonoBehaviour
 	private GameObject bulletPrefab;
 
 	[SerializeField, Min(0f)]
-	private float cannonOffsetX = 0.3f;
+	private float cannonOffsetX = 0.1f;
 
 	[SerializeField, Min(0f)]
-	private float cannonOffsetY = 0.5f;
+	private float cannonOffsetY = 0.15f;
 
 	[SerializeField, Min(0f)]
 	private float bulletSpeed = 25f;
 
 	[SerializeField, Min(0f)]
-	private float fireRate = 0.2f;
+	private float fireRate = 0.15f;
 
 	public Vector2 MoveInput => _moveInput;
 
