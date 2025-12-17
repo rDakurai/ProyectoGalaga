@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class EnemyAnimation : MonoBehaviour
+public class Enemy2bAnimation : MonoBehaviour
 {
     private const int STATE_IDLE = 0;
     private const int STATE_MOVING = 1;
-    private const int STATE_ATTACKING = 2;
-    private const int STATE_DEATH = 3;
+    private const int STATE_ATTACK1 = 2;
+    private const int STATE_ATTACK2 = 3;
 
     [Header("Sprites")]
     [SerializeField]
@@ -18,10 +18,10 @@ public class EnemyAnimation : MonoBehaviour
     private Sprite[] movingSprites;
 
     [SerializeField]
-    private Sprite[] attackingSprites;
+    private Sprite[] attack1Sprites;
 
     [SerializeField]
-    private Sprite[] deathSprites;
+    private Sprite[] attack2Sprites;
 
     [SerializeField, Min(0.1f)]
     private float frameRate = 10f;
@@ -33,7 +33,10 @@ public class EnemyAnimation : MonoBehaviour
     private int _frameIndex;
     private float _frameTimer;
     private Rigidbody2D _rb;
-    private bool _isDead;
+    private bool _isAttacking1;
+    private bool _isAttacking2;
+    private bool _attack1Finished;
+    private bool _attack2Finished;
 
     private void Awake()
     {
@@ -45,13 +48,6 @@ public class EnemyAnimation : MonoBehaviour
     {
         if (spriteRenderer == null)
         {
-            return;
-        }
-
-        // Si está muerto, no cambia de estado
-        if (_isDead)
-        {
-            AdvanceFrame();
             return;
         }
 
@@ -69,8 +65,17 @@ public class EnemyAnimation : MonoBehaviour
 
     private int DetermineState()
     {
-        // Por defecto idle; modifica aquí según tu lógica de enemigo
-        // (por ej., detecta si se está moviendo o atacando)
+        // Prioridad: Attack2 > Attack1 > Moving > Idle
+        if (_isAttacking2 && !_attack2Finished)
+        {
+            return STATE_ATTACK2;
+        }
+
+        if (_isAttacking1 && !_attack1Finished)
+        {
+            return STATE_ATTACK1;
+        }
+
         if (_rb != null && _rb.linearVelocity.sqrMagnitude > idleThreshold * idleThreshold)
         {
             return STATE_MOVING;
@@ -79,25 +84,34 @@ public class EnemyAnimation : MonoBehaviour
         return STATE_IDLE;
     }
 
-    public void SetAttacking(bool attacking)
+    public void StartAttack1()
     {
-        // Puedes llamar a esto desde tu lógica de combate
-        if (attacking && _currentState != STATE_ATTACKING)
-        {
-            _currentState = STATE_ATTACKING;
-            _frameIndex = 0;
-            _frameTimer = 0f;
-            ApplyFrame();
-        }
-    }
-
-    public void PlayDeath()
-    {
-        _isDead = true;
-        _currentState = STATE_DEATH;
+        _isAttacking1 = true;
+        _isAttacking2 = false; // asegura prioridad
+        _attack1Finished = false;
+        _currentState = STATE_ATTACK1;
         _frameIndex = 0;
         _frameTimer = 0f;
         ApplyFrame();
+    }
+
+    public void StartAttack2()
+    {
+        _isAttacking2 = true;
+        _isAttacking1 = false; // asegura prioridad
+        _attack2Finished = false;
+        _currentState = STATE_ATTACK2;
+        _frameIndex = 0;
+        _frameTimer = 0f;
+        ApplyFrame();
+    }
+
+    public void EndAttack()
+    {
+        _isAttacking1 = false;
+        _isAttacking2 = false;
+        _attack1Finished = false;
+        _attack2Finished = false;
     }
 
     private void AdvanceFrame()
@@ -114,21 +128,23 @@ public class EnemyAnimation : MonoBehaviour
         {
             _frameTimer -= frameDuration;
             
-            // Si está en estado de muerte, reproduce solo una vez
-            if (_currentState == STATE_DEATH)
+            int nextFrame = _frameIndex + 1;
+            
+            // Si es animación de ataque y termina el ciclo, marcar como terminada
+            if (nextFrame >= frames.Length)
             {
-                if (_frameIndex < frames.Length - 1)
+                if (_currentState == STATE_ATTACK1)
                 {
-                    _frameIndex++;
-                    ApplyFrame();
+                    _attack1Finished = true;
                 }
-                // Al terminar la animación de muerte, mantiene el último frame
+                else if (_currentState == STATE_ATTACK2)
+                {
+                    _attack2Finished = true;
+                }
             }
-            else
-            {
-                _frameIndex = (_frameIndex + 1) % frames.Length;
-                ApplyFrame();
-            }
+            
+            _frameIndex = nextFrame % frames.Length;
+            ApplyFrame();
         }
     }
 
@@ -150,10 +166,10 @@ public class EnemyAnimation : MonoBehaviour
         {
             case STATE_MOVING:
                 return movingSprites;
-            case STATE_ATTACKING:
-                return attackingSprites;
-            case STATE_DEATH:
-                return deathSprites;
+            case STATE_ATTACK1:
+                return attack1Sprites;
+            case STATE_ATTACK2:
+                return attack2Sprites;
             default:
                 return idleSprites;
         }
