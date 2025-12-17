@@ -1,0 +1,291 @@
+fileFormatVersion: 2
+guid: 9ccd0a2a465558648b0eff2f9cf01f75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7121454605525833505
+    second: cohete contenedor_0
+  - first:
+      213: -3687475137434894912
+    second: cohete contenedor_1
+  - first:
+      213: 1418881125781256221
+    second: cohete contenedor_2
+  - first:
+      213: 8734670397114589662
+    second: cohete contenedor_3
+  - first:
+      213: -614591554996892323
+    second: cohete contenedor_4
+  - first:
+      213: -7917939213778692521
+    second: cohete contenedor_5
+  - first:
+      213: -4978733122778895659
+    second: cohete contenedor_6
+  - first:
+      213: -6139638543589409748
+    second: cohete contenedor_7
+  - first:
+      213: -5234831202217770824
+    second: cohete contenedor_8
+  - first:
+      213: 6772977390347820785
+    second: cohete contenedor_9
+  - first:
+      213: -1524557053525509317
+    second: cohete contenedor_10
+  - first:
+      213: 4444142274051442722
+    second: cohete contenedor_11
+  - first:
+      213: 8990388393198510228
+    second: cohete contenedor_12
+  - first:
+      213: 1700145341478425370
+    second: cohete contenedor_13
+  - first:
+      213: 578251918343113859
+    second: cohete contenedor_14
+  - first:
+      213: 6826259605157453914
+    second: cohete contenedor_15
+  - first:
+      213: 2614318999501414278
+    second: cohete contenedor_16
+  - first:
+      213: -3093835150119593422
+    second: cohete contenedor_17
+  - first:
+      213: 3426993119709141995
+    second: cohete contenedor_18
+  - first:
+      213: -3408047244552611436
+    second: cohete contenedor_19
+  - first:
+      213: -7221687580969519549
+    second: cohete contenedor_20
+  - first:
+      213: -8947276066603790721
+    second: cohete contenedor_21
+  - first:
+      213: 5755512306614056539
+    second: cohete contenedor_22
+  - first:
+      213: 3746462740437875067
+    second: cohete contenedor_23
+  - first:
+      213: -5469117524019896186
+    second: cohete contenedor_24
+  - first:
+      213: -2035740958461467151
+    second: cohete contenedor_25
+  - first:
+      213: -333147441165972825
+    second: cohete contenedor_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cohete contenedor_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 414
+        width: 300
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8209174c28b2d90800000000000000
+      internalID: -7121454605525833505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohete contenedor_1
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 405
+        width: 435
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdbb1b46e473dcc0800000000000000
+      internalID: -3687475137434894912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohete contenedor_2
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 391
+        width: 586
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18b2b8cdd0e0b310800000000000000
+      internalID: 1418881125781256221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1cd30b96a97bf3a4b81ae99f6b75710f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cohete contenedor_0: -7121454605525833505
+      cohete contenedor_1: -3687475137434894912
+      cohete contenedor_10: -1524557053525509317
+      cohete contenedor_11: 4444142274051442722
+      cohete contenedor_12: 8990388393198510228
+      cohete contenedor_13: 1700145341478425370
+      cohete contenedor_14: 578251918343113859
+      cohete contenedor_15: 6826259605157453914
+      cohete contenedor_16: 2614318999501414278
+      cohete contenedor_17: -3093835150119593422
+      cohete contenedor_18: 3426993119709141995
+      cohete contenedor_19: -3408047244552611436
+      cohete contenedor_2: 1418881125781256221
+      cohete contenedor_20: -7221687580969519549
+      cohete contenedor_21: -8947276066603790721
+      cohete contenedor_22: 5755512306614056539
+      cohete contenedor_23: 3746462740437875067
+      cohete contenedor_24: -5469117524019896186
+      cohete contenedor_25: -2035740958461467151
+      cohete contenedor_26: -333147441165972825
+      cohete contenedor_3: 8734670397114589662
+      cohete contenedor_4: -614591554996892323
+      cohete contenedor_5: -7917939213778692521
+      cohete contenedor_6: -4978733122778895659
+      cohete contenedor_7: -6139638543589409748
+      cohete contenedor_8: -5234831202217770824
+      cohete contenedor_9: 6772977390347820785
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

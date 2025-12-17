@@ -9,6 +9,8 @@ public class BulletComportamiento : MonoBehaviour
     [SerializeField]
     private Vector2 direction = Vector2.up;
 
+    [SerializeField] private int damage = 1;
+
     [SerializeField, Min(0f)]
     private float lifetime = 5f;
 
@@ -53,13 +55,11 @@ public class BulletComportamiento : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Solo procesar si esta bala es del jugador
         if (!gameObject.CompareTag("PlayerAttack"))
         {
             return;
         }
 
-        // Destruir balas enemigas
         if (other.CompareTag("EnemyBullet"))
         {
             Destroy(other.gameObject);
@@ -67,15 +67,16 @@ public class BulletComportamiento : MonoBehaviour
             return;
         }
 
-        // Dañar enemigos
         if (other.CompareTag("Enemy"))
         {
-            EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
+             EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
             if (enemyHealth != null)
             {
-                enemyHealth.TakeDamage(1);
-            }
-            Destroy(gameObject);
+            enemyHealth.TakeDamage(damage);
+            SpecialAttack special = FindObjectOfType<SpecialAttack>();
+            if (special != null) special.AddChargeFromHit();
+        }
+        Destroy(gameObject);
         }
     }
 }

@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: b7f043ad2cf69d84dabcc876096bfb20
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9074476242174404105
+    second: cohetes_0
+  - first:
+      213: -263789520239707334
+    second: cohetes_1
+  - first:
+      213: -5162949830304046646
+    second: cohetes_2
+  - first:
+      213: -478077238553535755
+    second: cohetes_3
+  - first:
+      213: -8647960059400408168
+    second: cohetes_4
+  - first:
+      213: -6594430048688239760
+    second: cohetes_5
+  - first:
+      213: -5762340359369873556
+    second: cohetes_6
+  - first:
+      213: -8333991854473671995
+    second: cohetes_7
+  - first:
+      213: 5005558514558588245
+    second: cohetes_8
+  - first:
+      213: -4510801968348150165
+    second: cohetes_9
+  - first:
+      213: 855359493399944320
+    second: cohetes_10
+  - first:
+      213: -8230977918599793848
+    second: cohetes_11
+  - first:
+      213: 3808230801043050142
+    second: cohetes_12
+  - first:
+      213: 8805343139544851772
+    second: cohetes_13
+  - first:
+      213: -2647527292388634035
+    second: cohetes_14
+  - first:
+      213: -3305031648702923948
+    second: cohetes_15
+  - first:
+      213: 7752506900478118048
+    second: cohetes_16
+  - first:
+      213: -5947299991104348961
+    second: cohetes_17
+  - first:
+      213: 8082341767395587400
+    second: cohetes_18
+  - first:
+      213: -8877942451672941657
+    second: cohetes_19
+  - first:
+      213: 4667407838764151463
+    second: cohetes_20
+  - first:
+      213: 2105040258462036404
+    second: cohetes_21
+  - first:
+      213: -4658603314623674559
+    second: cohetes_22
+  - first:
+      213: -1079470895953499310
+    second: cohetes_23
+  - first:
+      213: -7014951783864286116
+    second: cohetes_24
+  - first:
+      213: -3427265858000960205
+    second: cohetes_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cohetes_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 379
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f91976bfebf01280800000000000000
+      internalID: -9074476242174404105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 364
+        width: 118
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b34a634d4d65cf0800000000000000
+      internalID: -263789520239707334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 735
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1609bdb748958b0800000000000000
+      internalID: -5162949830304046646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_3
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 378
+        width: 99
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa11d4d8478d59f0800000000000000
+      internalID: -478077238553535755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_4
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 367
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8933ca315264cf780800000000000000
+      internalID: -8647960059400408168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_5
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1
+        width: 297
+        height: 1023
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b86cb3fc0eb74a0800000000000000
+      internalID: -6594430048688239760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 374
+        width: 93
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67acdc29fd0800b0800000000000000
+      internalID: -5762340359369873556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_7
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 457
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca09115096b75c80800000000000000
+      internalID: -8333991854473671995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_8
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 827
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55552bac2f0577540800000000000000
+      internalID: 5005558514558588245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_9
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 406
+        width: 88
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66c97052896661c0800000000000000
+      internalID: -4510801968348150165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_10
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 396
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c9c576de8dedb00800000000000000
+      internalID: 855359493399944320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_11
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 470
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84376cf4131b5cd80800000000000000
+      internalID: -8230977918599793848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_12
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 424
+        width: 83
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e4fd69cbd89d430800000000000000
+      internalID: 3808230801043050142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_13
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 411
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c356ef5ceecd23a70800000000000000
+      internalID: 8805343139544851772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_14
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 455
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42160c64f7124bd0800000000000000
+      internalID: -2647527292388634035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_15
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 200
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b73afe93b2222d0800000000000000
+      internalID: -3305031648702923948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_16
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 560
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a843c193ff669b60800000000000000
+      internalID: 7752506900478118048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_17
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 431
+        width: 80
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc9a811b22f67da0800000000000000
+      internalID: -5947299991104348961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_18
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 586
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845baeee30f3a2070800000000000000
+      internalID: 8082341767395587400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_19
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 567
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab7ca7a0663bc480800000000000000
+      internalID: -8877942451672941657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_20
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 442
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2396b43b6f5c040800000000000000
+      internalID: 4667407838764151463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_21
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 515
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1b68b46fa963d10800000000000000
+      internalID: 2105040258462036404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_22
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 501
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147066ab7f0595fb0800000000000000
+      internalID: -4658603314623674559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_23
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 571
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ba15d70f2f401f0800000000000000
+      internalID: -1079470895953499310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_24
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 464
+        width: 83
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54c646f482e5ae90800000000000000
+      internalID: -7014951783864286116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cohetes_25
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 512
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335470f4cd7ef60d0800000000000000
+      internalID: -3427265858000960205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cohetes_0: -9074476242174404105
+      cohetes_1: -263789520239707334
+      cohetes_10: 855359493399944320
+      cohetes_11: -8230977918599793848
+      cohetes_12: 3808230801043050142
+      cohetes_13: 8805343139544851772
+      cohetes_14: -2647527292388634035
+      cohetes_15: -3305031648702923948
+      cohetes_16: 7752506900478118048
+      cohetes_17: -5947299991104348961
+      cohetes_18: 8082341767395587400
+      cohetes_19: -8877942451672941657
+      cohetes_2: -5162949830304046646
+      cohetes_20: 4667407838764151463
+      cohetes_21: 2105040258462036404
+      cohetes_22: -4658603314623674559
+      cohetes_23: -1079470895953499310
+      cohetes_24: -7014951783864286116
+      cohetes_25: -3427265858000960205
+      cohetes_3: -478077238553535755
+      cohetes_4: -8647960059400408168
+      cohetes_5: -6594430048688239760
+      cohetes_6: -5762340359369873556
+      cohetes_7: -8333991854473671995
+      cohetes_8: 5005558514558588245
+      cohetes_9: -4510801968348150165
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

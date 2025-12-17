@@ -5,13 +5,12 @@ public class PlayerHealth : MonoBehaviour
 {
     [Header("Vida del Jugador")]
     [SerializeField, Min(1)]
-    private int maxHealth = 4;   // 👈 4 corazones base
+    private int maxHealth = 4;
 
     public int CurrentHealth { get; private set; }
     public int MaxHealth => maxHealth;
 
-    // La UI se suscribe aquí para actualizar corazones
-    public event Action<int, int> OnHealthChanged; // current, max
+    public event Action<int, int> OnHealthChanged;
 
     private void Awake()
     {
