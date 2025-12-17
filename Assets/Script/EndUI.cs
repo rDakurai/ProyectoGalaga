@@ -7,7 +7,7 @@ public class EndUI : MonoBehaviour
     public TMP_Text resultText;
     public TMP_Text scoreText;
 
-    public string gameSceneName = "Game";
+    public string gameSceneName = "SampleScene";
     public string menuSceneName = "Menu";
 
     void Start()
