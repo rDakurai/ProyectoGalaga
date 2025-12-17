@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 378fd29481854344084757ac63cf5a47
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5972350768801462218
+    second: Balas 2 Jugador_0
+  - first:
+      213: -7047849866094823214
+    second: Balas 2 Jugador_1
+  - first:
+      213: 3436163569312091447
+    second: Balas 2 Jugador_2
+  - first:
+      213: 7330998061516904726
+    second: Balas 2 Jugador_3
+  - first:
+      213: 4567194837021167643
+    second: Balas 2 Jugador_4
+  - first:
+      213: -7838334340636682665
+    second: Balas 2 Jugador_5
+  - first:
+      213: 8087377313532010965
+    second: Balas 2 Jugador_6
+  - first:
+      213: 5222675785926362729
+    second: Balas 2 Jugador_7
+  - first:
+      213: 3112969664825557980
+    second: Balas 2 Jugador_8
+  - first:
+      213: -2598001857932500178
+    second: Balas 2 Jugador_9
+  - first:
+      213: -189210868016658097
+    second: Balas 2 Jugador_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bala1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 460
+        width: 109
+        height: 56
+      alignment: 9
+      pivot: {x: 0.6769914, y: 0.48434013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac73170a16d02e250800000000000000
+      internalID: 5972350768801462218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala2
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 452
+        width: 122
+        height: 69
+      alignment: 9
+      pivot: {x: 0.6491469, y: 0.47775933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8322d43e1013e90800000000000000
+      internalID: -7047849866094823214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balas 2 Jugador_2
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 435
+        width: 147
+        height: 90
+      alignment: 9
+      pivot: {x: 0.6202139, y: 0.5331194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d4cfa8f84bfaf20800000000000000
+      internalID: 3436163569312091447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balas 2 Jugador_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 418
+        width: 202
+        height: 136
+      alignment: 9
+      pivot: {x: 0.6106833, y: 0.48988366}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619dac945efecb560800000000000000
+      internalID: 7330998061516904726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 270
+        width: 127
+        height: 65
+      alignment: 9
+      pivot: {x: 0.6417323, y: 0.47948748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1015a8918fe16f30800000000000000
+      internalID: 4567194837021167643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 262
+        width: 149
+        height: 85
+      alignment: 9
+      pivot: {x: 0.6029084, y: 0.46862757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756da9b4274a83390800000000000000
+      internalID: -7838334340636682665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balas 2 Jugador_6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 240
+        width: 192
+        height: 129
+      alignment: 9
+      pivot: {x: 0.58680564, y: 0.49483213}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1e0a161d22c3070800000000000000
+      internalID: 8087377313532010965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balas 2 Jugador_7
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 224
+        width: 232
+        height: 157
+      alignment: 9
+      pivot: {x: 0.6149429, y: 0.5169853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966cc25d4fbaa7840800000000000000
+      internalID: 5222675785926362729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bala5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 67
+        width: 137
+        height: 77
+      alignment: 9
+      pivot: {x: 0.6282346, y: 0.5335526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd38e7cba6d733b20800000000000000
+      internalID: 3112969664825557980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balas 2 Jugador_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 59
+        width: 177
+        height: 111
+      alignment: 9
+      pivot: {x: 0.6374015, y: 0.47459713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23e024331b02fbd0800000000000000
+      internalID: -2598001857932500178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balas 2 Jugador_10
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 21
+        width: 228
+        height: 195
+      alignment: 9
+      pivot: {x: 0.62704587, y: 0.4597268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f494930d7b9cf5df0800000000000000
+      internalID: -189210868016658097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Balas 2 Jugador_11
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 23
+        width: 246
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ed8a5f08baa1c47add8157dc2a2761
+      internalID: 955664073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8f1d148683c4a3844a86a7906b3f6973
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Bala1: 5972350768801462218
+      Bala2: -7047849866094823214
+      Bala3: 4567194837021167643
+      Bala4: -7838334340636682665
+      Bala5: 3112969664825557980
+      Balas 2 Jugador_10: -189210868016658097
+      Balas 2 Jugador_11: 955664073
+      Balas 2 Jugador_12: 279107997
+      Balas 2 Jugador_2: 3436163569312091447
+      Balas 2 Jugador_3: 7330998061516904726
+      Balas 2 Jugador_6: 8087377313532010965
+      Balas 2 Jugador_7: 5222675785926362729
+      Balas 2 Jugador_9: -2598001857932500178
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
