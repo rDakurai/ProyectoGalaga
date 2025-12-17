@@ -1,0 +1,2652 @@
+fileFormatVersion: 2
+guid: 815cd41721bc59a468a594f45007acb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6400292040449765762
+    second: balas_sin_fondo_0
+  - first:
+      213: -2692697102220125116
+    second: balas_sin_fondo_1
+  - first:
+      213: 3583671815098285416
+    second: balas_sin_fondo_2
+  - first:
+      213: -4444064186857181627
+    second: balas_sin_fondo_3
+  - first:
+      213: 1849237911422739310
+    second: balas_sin_fondo_4
+  - first:
+      213: 9118468970808188986
+    second: balas_sin_fondo_5
+  - first:
+      213: -663174512648147197
+    second: balas_sin_fondo_6
+  - first:
+      213: -3439656617783509268
+    second: balas_sin_fondo_7
+  - first:
+      213: 4713238896588302624
+    second: balas_sin_fondo_8
+  - first:
+      213: -6346492606166854069
+    second: balas_sin_fondo_9
+  - first:
+      213: -6463142369719030127
+    second: balas_sin_fondo_10
+  - first:
+      213: -4778905674443427195
+    second: balas_sin_fondo_11
+  - first:
+      213: 3850246938406823676
+    second: balas_sin_fondo_12
+  - first:
+      213: 1573819268712921757
+    second: balas_sin_fondo_13
+  - first:
+      213: -6622276127535082243
+    second: balas_sin_fondo_14
+  - first:
+      213: -2418981658124992565
+    second: balas_sin_fondo_15
+  - first:
+      213: -6149762135878910108
+    second: balas_sin_fondo_16
+  - first:
+      213: -8643791596131108026
+    second: balas_sin_fondo_17
+  - first:
+      213: -8611369494401138774
+    second: balas_sin_fondo_18
+  - first:
+      213: -1201786547532321236
+    second: balas_sin_fondo_19
+  - first:
+      213: -1576819195818176346
+    second: balas_sin_fondo_20
+  - first:
+      213: 597715308800630503
+    second: balas_sin_fondo_21
+  - first:
+      213: 8745689593759323846
+    second: balas_sin_fondo_22
+  - first:
+      213: 7305388707278506790
+    second: balas_sin_fondo_23
+  - first:
+      213: 6878961803330200392
+    second: balas_sin_fondo_24
+  - first:
+      213: -666276442744882318
+    second: balas_sin_fondo_25
+  - first:
+      213: 3689882015568925237
+    second: balas_sin_fondo_26
+  - first:
+      213: 7273019125722931994
+    second: balas_sin_fondo_27
+  - first:
+      213: 5137461850612457934
+    second: balas_sin_fondo_28
+  - first:
+      213: -1815554770106497152
+    second: balas_sin_fondo_29
+  - first:
+      213: -3101797912231229705
+    second: balas_sin_fondo_30
+  - first:
+      213: 637886402178252026
+    second: balas_sin_fondo_31
+  - first:
+      213: 8296950939100002685
+    second: balas_sin_fondo_32
+  - first:
+      213: 675932554140429751
+    second: balas_sin_fondo_33
+  - first:
+      213: -3475069995093380079
+    second: balas_sin_fondo_34
+  - first:
+      213: -4821675156135061830
+    second: balas_sin_fondo_35
+  - first:
+      213: 504894951296652832
+    second: balas_sin_fondo_36
+  - first:
+      213: -7062050415856313144
+    second: balas_sin_fondo_37
+  - first:
+      213: 4648930782885861989
+    second: balas_sin_fondo_38
+  - first:
+      213: 9018410480196554429
+    second: balas_sin_fondo_39
+  - first:
+      213: 3754599757151603387
+    second: balas_sin_fondo_40
+  - first:
+      213: -5999880047766952219
+    second: balas_sin_fondo_41
+  - first:
+      213: -5065234908886742827
+    second: balas_sin_fondo_42
+  - first:
+      213: 2981177375634899891
+    second: balas_sin_fondo_43
+  - first:
+      213: 8530174934817346601
+    second: balas_sin_fondo_44
+  - first:
+      213: 2108501813130914558
+    second: balas_sin_fondo_45
+  - first:
+      213: 5071182568995747954
+    second: balas_sin_fondo_46
+  - first:
+      213: -6941105982644854489
+    second: balas_sin_fondo_47
+  - first:
+      213: 2307376039870460414
+    second: balas_sin_fondo_48
+  - first:
+      213: 3737017877377014601
+    second: balas_sin_fondo_49
+  - first:
+      213: 8558577231835360691
+    second: balas_sin_fondo_50
+  - first:
+      213: 5382222569128981877
+    second: balas_sin_fondo_51
+  - first:
+      213: 140710058115134939
+    second: balas_sin_fondo_52
+  - first:
+      213: -2149068046744147900
+    second: balas_sin_fondo_53
+  - first:
+      213: -4705199017346502094
+    second: balas_sin_fondo_54
+  - first:
+      213: 4440092393667671591
+    second: balas_sin_fondo_55
+  - first:
+      213: 369063798107721457
+    second: balas_sin_fondo_56
+  - first:
+      213: -8330125894562874191
+    second: balas_sin_fondo_57
+  - first:
+      213: -3819890255467227870
+    second: balas_sin_fondo_58
+  - first:
+      213: -2915653281073661417
+    second: balas_sin_fondo_59
+  - first:
+      213: 3651151837877955308
+    second: balas_sin_fondo_60
+  - first:
+      213: 4552260001154457355
+    second: balas_sin_fondo_61
+  - first:
+      213: -8843084059541929143
+    second: balas_sin_fondo_62
+  - first:
+      213: 6948973868822988682
+    second: balas_sin_fondo_63
+  - first:
+      213: 3903748964770169298
+    second: balas_sin_fondo_64
+  - first:
+      213: -1548453550965681299
+    second: balas_sin_fondo_65
+  - first:
+      213: 3347125379771227290
+    second: balas_sin_fondo_66
+  - first:
+      213: -8713865990625824999
+    second: balas_sin_fondo_67
+  - first:
+      213: -9024510612064785499
+    second: balas_sin_fondo_68
+  - first:
+      213: 4733879062723166848
+    second: balas_sin_fondo_69
+  - first:
+      213: -2591295770297060344
+    second: balas_sin_fondo_70
+  - first:
+      213: -2349730878055428581
+    second: balas_sin_fondo_71
+  - first:
+      213: -7712140925340079991
+    second: balas_sin_fondo_72
+  - first:
+      213: -3762310943377060508
+    second: balas_sin_fondo_73
+  - first:
+      213: -4451147866899723245
+    second: balas_sin_fondo_74
+  - first:
+      213: -1159044610374876842
+    second: balas_sin_fondo_75
+  - first:
+      213: 5707210964416643497
+    second: balas_sin_fondo_76
+  - first:
+      213: -4945430242834280493
+    second: balas_sin_fondo_77
+  - first:
+      213: -7719086038955892606
+    second: balas_sin_fondo_78
+  - first:
+      213: -9179160522072063273
+    second: balas_sin_fondo_79
+  - first:
+      213: 265201585848753773
+    second: balas_sin_fondo_80
+  - first:
+      213: -1889224935372441340
+    second: balas_sin_fondo_81
+  - first:
+      213: 7144016212119676641
+    second: balas_sin_fondo_82
+  - first:
+      213: -2540101141920360357
+    second: balas_sin_fondo_83
+  - first:
+      213: 93777251548301011
+    second: balas_sin_fondo_84
+  - first:
+      213: 6415063085611756966
+    second: balas_sin_fondo_85
+  - first:
+      213: 4864385138906510639
+    second: balas_sin_fondo_86
+  - first:
+      213: -714726695720731037
+    second: balas_sin_fondo_87
+  - first:
+      213: -5127243487931646084
+    second: balas_sin_fondo_88
+  - first:
+      213: -688390994848507622
+    second: balas_sin_fondo_89
+  - first:
+      213: -1471225932453226312
+    second: balas_sin_fondo_90
+  - first:
+      213: -1198602828992809347
+    second: balas_sin_fondo_91
+  - first:
+      213: -853696881832729262
+    second: balas_sin_fondo_92
+  - first:
+      213: 9218898587075754040
+    second: balas_sin_fondo_93
+  - first:
+      213: -4773679054802272151
+    second: balas_sin_fondo_94
+  - first:
+      213: 2500532829860695306
+    second: balas_sin_fondo_95
+  - first:
+      213: -6074792375372551612
+    second: balas_sin_fondo_96
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: balas_sin_fondo_0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 478
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281b4c953b762d850800000000000000
+      internalID: 6400292040449765762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 478
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c1276804e91aad0800000000000000
+      internalID: -2692697102220125116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 476
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d338a5782cbb130800000000000000
+      internalID: 3583671815098285416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_3
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 480
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ea75fea238352c0800000000000000
+      internalID: -4444064186857181627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_4
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 472
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63a98f2510d9a910800000000000000
+      internalID: 1849237911422739310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_5
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 472
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30a17c973f4b8e70800000000000000
+      internalID: 9118468970808188986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_6
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 472
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fa38d5b4eebc6f0800000000000000
+      internalID: -663174512648147197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_7
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 472
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee31bbb782e340d0800000000000000
+      internalID: -3439656617783509268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_8
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 415
+        width: 80
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02923bcfdc9c86140800000000000000
+      internalID: 4713238896588302624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_9
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 414
+        width: 50
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4618cf899abce7a0800000000000000
+      internalID: -6346492606166854069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 412
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19eee18024e4e46a0800000000000000
+      internalID: -6463142369719030127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_11
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 411
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58273bbdb9aedadb0800000000000000
+      internalID: -4778905674443427195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_12
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 396
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf62645e033de6530800000000000000
+      internalID: 3850246938406823676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_13
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 397
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a7c44594457d510800000000000000
+      internalID: 1573819268712921757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_14
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 396
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4d8b5c2f2f814a0800000000000000
+      internalID: -6622276127535082243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 298
+        width: 122
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf364d8ffc0e6ed0800000000000000
+      internalID: -2418981658124992565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_16
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 332
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f3ac59be7a7aaa0800000000000000
+      internalID: -6149762135878910108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_17
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 300
+        width: 116
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b391017551b0880800000000000000
+      internalID: -8643791596131108026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_18
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 302
+        width: 122
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafb590e1154e7880800000000000000
+      internalID: -8611369494401138774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_19
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 329
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e2e7a9085625fe0800000000000000
+      internalID: -1201786547532321236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_20
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 293
+        width: 117
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a09d36bb430e1ae0800000000000000
+      internalID: -1576819195818176346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_21
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 319
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eedfd118e28b4800800000000000000
+      internalID: 597715308800630503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_22
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 320
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6dadf495eee5970800000000000000
+      internalID: 8745689593759323846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_23
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 261
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b4c7bd254f16560800000000000000
+      internalID: 7305388707278506790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 232
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8432af6505bf67f50800000000000000
+      internalID: 6878961803330200392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_25
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 267
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27bfafbfa19e0c6f0800000000000000
+      internalID: -666276442744882318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_26
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 266
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5329611b428153330800000000000000
+      internalID: 3689882015568925237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_27
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 226
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1366595c54fee460800000000000000
+      internalID: 7273019125722931994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_28
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 226
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec160ec655eeb4740800000000000000
+      internalID: 5137461850612457934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_29
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 227
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08749894e8addc6e0800000000000000
+      internalID: -1815554770106497152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_30
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 239
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6c86c9b3334f4d0800000000000000
+      internalID: -3101797912231229705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_31
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 241
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcf2e89d4a3ad800800000000000000
+      internalID: 637886402178252026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_32
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 260
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7936e38be0b42370800000000000000
+      internalID: 8296950939100002685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_33
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 260
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bda9a5a315616900800000000000000
+      internalID: 675932554140429751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_34
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 268
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11437dc404216cfc0800000000000000
+      internalID: -3475069995093380079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_35
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 246
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab65e38edf7f51db0800000000000000
+      internalID: -4821675156135061830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 252
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026dcec784fb10700800000000000000
+      internalID: 504894951296652832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_37
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 247
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc1cf8209e8efd90800000000000000
+      internalID: -7062050415856313144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_38
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 258
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a5a4b7ae1548040800000000000000
+      internalID: 4648930782885861989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_39
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 252
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe86c6dc84d72d70800000000000000
+      internalID: 9018410480196554429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_40
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 254
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba0ace16940b1430800000000000000
+      internalID: 3754599757151603387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_41
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 254
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6a5e1a2e42cbca0800000000000000
+      internalID: -5999880047766952219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_42
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 239
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8c5e7efaba4b9b0800000000000000
+      internalID: -5065234908886742827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_43
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 237
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3462737054f5920800000000000000
+      internalID: 2981177375634899891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 245
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9249abd88e4416670800000000000000
+      internalID: 8530174934817346601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_45
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 243
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa6feb4a37e24d10800000000000000
+      internalID: 2108501813130914558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_46
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 233
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278f420ada5706640800000000000000
+      internalID: 5071182568995747954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_47
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 243
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7216d1462ec3caf90800000000000000
+      internalID: -6941105982644854489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_48
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 236
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1f9b38842750020800000000000000
+      internalID: 2307376039870460414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_49
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 237
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b575cb5fd8cd330800000000000000
+      internalID: 3737017877377014601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_50
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 234
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdea46a5ac26c670800000000000000
+      internalID: 8558577231835360691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_51
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 234
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575f50f09ee71ba40800000000000000
+      internalID: 5382222569128981877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_52
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 184
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5f6466d07e3f100800000000000000
+      internalID: 140710058115134939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_53
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 199
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4482cab6ff9fc22e0800000000000000
+      internalID: -2149068046744147900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_54
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 183
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2327b854c66c3beb0800000000000000
+      internalID: -4705199017346502094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_55
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 198
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726b976e1806e9d30800000000000000
+      internalID: 4440092393667671591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 129
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fecaa9a19d2f1500800000000000000
+      internalID: 369063798107721457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_57
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 161
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcfb4042a2756c80800000000000000
+      internalID: -8330125894562874191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_58
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 158
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22556e12d060dfac0800000000000000
+      internalID: -3819890255467227870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_59
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 170
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71af665e9c48987d0800000000000000
+      internalID: -2915653281073661417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_60
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 164
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceaeabd704f7ba230800000000000000
+      internalID: 3651151837877955308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_61
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 128
+        width: 69
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fd7062a50ec2f30800000000000000
+      internalID: 4552260001154457355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_62
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 160
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943851886ed074580800000000000000
+      internalID: -8843084059541929143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_63
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 157
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a878aac9ae6bf6060800000000000000
+      internalID: 6948973868822988682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_64
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 170
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1cc612007ec2630800000000000000
+      internalID: 3903748964770169298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_65
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 163
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d639f7f03b9c28ae0800000000000000
+      internalID: -1548453550965681299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_66
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 156
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c55ff8cc0637e20800000000000000
+      internalID: 3347125379771227290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_67
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 132
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fe360bc01221780800000000000000
+      internalID: -8713865990625824999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_68
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 156
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aba228896f72c280800000000000000
+      internalID: -9024510612064785499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_69
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 131
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08206472ded12b140800000000000000
+      internalID: 4733879062723166848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_70
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 144
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804b877e93ed90cd0800000000000000
+      internalID: -2591295770297060344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_71
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 123
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e4dbf3734146fd0800000000000000
+      internalID: -2349730878055428581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_72
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 144
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9882a5760b8f8f490800000000000000
+      internalID: -7712140925340079991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_73
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 123
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d027d612699cbc0800000000000000
+      internalID: -3762310943377060508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_74
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 123
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c44b629985a32c0800000000000000
+      internalID: -4451147866899723245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_75
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 122
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65146c7511f3aefe0800000000000000
+      internalID: -1159044610374876842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_76
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 122
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1c4405226143f40800000000000000
+      internalID: 5707210964416643497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_77
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 122
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df836a656d4e5bb0800000000000000
+      internalID: -4945430242834280493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_78
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 21
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2806b51252c40e490800000000000000
+      internalID: -7719086038955892606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_79
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 11
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d20b9173221d9080800000000000000
+      internalID: -9179160522072063273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_80
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2
+        width: 102
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e926eef6f2ea300800000000000000
+      internalID: 265201585848753773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_81
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3
+        width: 105
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409b05a4eef18c5e0800000000000000
+      internalID: -1889224935372441340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_82
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 53
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e66601f4e4a42360800000000000000
+      internalID: 7144016212119676641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_83
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 66
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58d54e287fbfbcd0800000000000000
+      internalID: -2540101141920360357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_84
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 60
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d68c86d9e92d4100800000000000000
+      internalID: 93777251548301011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_85
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 41
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad2c9d43e1e60950800000000000000
+      internalID: 6415063085611756966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_86
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 49
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25363fd284c18340800000000000000
+      internalID: 4864385138906510639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_87
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36eb3166bd7c416f0800000000000000
+      internalID: -714726695720731037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_88
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 16
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f36e8863f58d8b0800000000000000
+      internalID: -5127243487931646084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_89
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 41
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a191a7599085276f0800000000000000
+      internalID: -688390994848507622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_90
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 38
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b858cf2fc7259be0800000000000000
+      internalID: -1471225932453226312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_91
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 50
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76fa17d315bd5fe0800000000000000
+      internalID: -1198602828992809347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_92
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2556084853f0724f0800000000000000
+      internalID: -853696881832729262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_93
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 9
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838300fcb6b10ff70800000000000000
+      internalID: 9218898587075754040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_94
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 30
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960c9c2113c70cdb0800000000000000
+      internalID: -4773679054802272151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_95
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 20
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d8c014c5da3b220800000000000000
+      internalID: 2500532829860695306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: balas_sin_fondo_96
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 16
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44aeaad258002bba0800000000000000
+      internalID: -6074792375372551612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      balas_sin_fondo_0: 6400292040449765762
+      balas_sin_fondo_1: -2692697102220125116
+      balas_sin_fondo_10: -6463142369719030127
+      balas_sin_fondo_11: -4778905674443427195
+      balas_sin_fondo_12: 3850246938406823676
+      balas_sin_fondo_13: 1573819268712921757
+      balas_sin_fondo_14: -6622276127535082243
+      balas_sin_fondo_15: -2418981658124992565
+      balas_sin_fondo_16: -6149762135878910108
+      balas_sin_fondo_17: -8643791596131108026
+      balas_sin_fondo_18: -8611369494401138774
+      balas_sin_fondo_19: -1201786547532321236
+      balas_sin_fondo_2: 3583671815098285416
+      balas_sin_fondo_20: -1576819195818176346
+      balas_sin_fondo_21: 597715308800630503
+      balas_sin_fondo_22: 8745689593759323846
+      balas_sin_fondo_23: 7305388707278506790
+      balas_sin_fondo_24: 6878961803330200392
+      balas_sin_fondo_25: -666276442744882318
+      balas_sin_fondo_26: 3689882015568925237
+      balas_sin_fondo_27: 7273019125722931994
+      balas_sin_fondo_28: 5137461850612457934
+      balas_sin_fondo_29: -1815554770106497152
+      balas_sin_fondo_3: -4444064186857181627
+      balas_sin_fondo_30: -3101797912231229705
+      balas_sin_fondo_31: 637886402178252026
+      balas_sin_fondo_32: 8296950939100002685
+      balas_sin_fondo_33: 675932554140429751
+      balas_sin_fondo_34: -3475069995093380079
+      balas_sin_fondo_35: -4821675156135061830
+      balas_sin_fondo_36: 504894951296652832
+      balas_sin_fondo_37: -7062050415856313144
+      balas_sin_fondo_38: 4648930782885861989
+      balas_sin_fondo_39: 9018410480196554429
+      balas_sin_fondo_4: 1849237911422739310
+      balas_sin_fondo_40: 3754599757151603387
+      balas_sin_fondo_41: -5999880047766952219
+      balas_sin_fondo_42: -5065234908886742827
+      balas_sin_fondo_43: 2981177375634899891
+      balas_sin_fondo_44: 8530174934817346601
+      balas_sin_fondo_45: 2108501813130914558
+      balas_sin_fondo_46: 5071182568995747954
+      balas_sin_fondo_47: -6941105982644854489
+      balas_sin_fondo_48: 2307376039870460414
+      balas_sin_fondo_49: 3737017877377014601
+      balas_sin_fondo_5: 9118468970808188986
+      balas_sin_fondo_50: 8558577231835360691
+      balas_sin_fondo_51: 5382222569128981877
+      balas_sin_fondo_52: 140710058115134939
+      balas_sin_fondo_53: -2149068046744147900
+      balas_sin_fondo_54: -4705199017346502094
+      balas_sin_fondo_55: 4440092393667671591
+      balas_sin_fondo_56: 369063798107721457
+      balas_sin_fondo_57: -8330125894562874191
+      balas_sin_fondo_58: -3819890255467227870
+      balas_sin_fondo_59: -2915653281073661417
+      balas_sin_fondo_6: -663174512648147197
+      balas_sin_fondo_60: 3651151837877955308
+      balas_sin_fondo_61: 4552260001154457355
+      balas_sin_fondo_62: -8843084059541929143
+      balas_sin_fondo_63: 6948973868822988682
+      balas_sin_fondo_64: 3903748964770169298
+      balas_sin_fondo_65: -1548453550965681299
+      balas_sin_fondo_66: 3347125379771227290
+      balas_sin_fondo_67: -8713865990625824999
+      balas_sin_fondo_68: -9024510612064785499
+      balas_sin_fondo_69: 4733879062723166848
+      balas_sin_fondo_7: -3439656617783509268
+      balas_sin_fondo_70: -2591295770297060344
+      balas_sin_fondo_71: -2349730878055428581
+      balas_sin_fondo_72: -7712140925340079991
+      balas_sin_fondo_73: -3762310943377060508
+      balas_sin_fondo_74: -4451147866899723245
+      balas_sin_fondo_75: -1159044610374876842
+      balas_sin_fondo_76: 5707210964416643497
+      balas_sin_fondo_77: -4945430242834280493
+      balas_sin_fondo_78: -7719086038955892606
+      balas_sin_fondo_79: -9179160522072063273
+      balas_sin_fondo_8: 4713238896588302624
+      balas_sin_fondo_80: 265201585848753773
+      balas_sin_fondo_81: -1889224935372441340
+      balas_sin_fondo_82: 7144016212119676641
+      balas_sin_fondo_83: -2540101141920360357
+      balas_sin_fondo_84: 93777251548301011
+      balas_sin_fondo_85: 6415063085611756966
+      balas_sin_fondo_86: 4864385138906510639
+      balas_sin_fondo_87: -714726695720731037
+      balas_sin_fondo_88: -5127243487931646084
+      balas_sin_fondo_89: -688390994848507622
+      balas_sin_fondo_9: -6346492606166854069
+      balas_sin_fondo_90: -1471225932453226312
+      balas_sin_fondo_91: -1198602828992809347
+      balas_sin_fondo_92: -853696881832729262
+      balas_sin_fondo_93: 9218898587075754040
+      balas_sin_fondo_94: -4773679054802272151
+      balas_sin_fondo_95: 2500532829860695306
+      balas_sin_fondo_96: -6074792375372551612
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
