@@ -1,31 +1,55 @@
 using UnityEngine;
+using System;
 
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Vida del Jugador")]
     [SerializeField, Min(1)]
-    private int maxHealth = 3;
+    private int maxHealth = 4;
 
     public int CurrentHealth { get; private set; }
+    public int MaxHealth => maxHealth;
+
+    public event Action<int, int> OnHealthChanged;
 
     private void Awake()
     {
         CurrentHealth = maxHealth;
+        OnHealthChanged?.Invoke(CurrentHealth, maxHealth);
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int damage = 1)
     {
+        if (damage <= 0) return;
+
         CurrentHealth = Mathf.Max(0, CurrentHealth - damage);
-        // TODO: actualizar UI o efectos de daño
+        OnHealthChanged?.Invoke(CurrentHealth, maxHealth);
+
         if (CurrentHealth <= 0)
-        {
             OnDeath();
-        }
+    }
+
+    public void Heal(int amount = 1)
+    {
+        if (amount <= 0) return;
+
+        CurrentHealth = Mathf.Min(maxHealth, CurrentHealth + amount);
+        OnHealthChanged?.Invoke(CurrentHealth, maxHealth);
+    }
+
+    public void AddMaxHealth(int amount = 1, bool healToMax = true)
+    {
+        if (amount <= 0) return;
+
+        maxHealth += amount;
+        if (healToMax) CurrentHealth = maxHealth;
+
+        OnHealthChanged?.Invoke(CurrentHealth, maxHealth);
     }
 
     private void OnDeath()
     {
-        // Manejo simple: desactivar jugador; puedes reiniciar escena o mostrar game over
         gameObject.SetActive(false);
     }
 }
+
