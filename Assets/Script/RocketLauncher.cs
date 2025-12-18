@@ -48,6 +48,9 @@ public class RocketLauncher : MonoBehaviour
 
         Instantiate(rocketPrefab, firePoint.position, firePoint.rotation);
 
+        // Reproducir sonido de cohete
+        PlayerAudioManager.PlayRocket();
+
         currentRockets--;
         OnRocketsChanged?.Invoke(currentRockets, maxRockets);
 

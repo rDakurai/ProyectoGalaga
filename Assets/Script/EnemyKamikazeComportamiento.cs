@@ -39,6 +39,7 @@ public class EnemyKamikazeComportamiento : MonoBehaviour
     private Rigidbody2D _rb;
     private Coroutine _routine;
     private bool _arrived;
+    private EnemyDropper _dropper;
 
     private void Awake()
     {
@@ -49,6 +50,8 @@ public class EnemyKamikazeComportamiento : MonoBehaviour
         }
         _rb.gravityScale = 0f;
         _rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        
+        _dropper = GetComponent<EnemyDropper>();
     }
 
     private void OnEnable()
@@ -104,6 +107,9 @@ public class EnemyKamikazeComportamiento : MonoBehaviour
             yield return new WaitForSeconds(restDuration);
         }
 
+        // Reproducir sonido antes de embestir
+        EnemyAudioManager.PlayKamikazeRush();
+
         // Fase 3: embestir hacia la ubicación actual del jugador
         Vector2 targetRushPos = GetPlayerPosition();
         Vector2 rushDir = (targetRushPos - (Vector2)transform.position).normalized;
@@ -129,6 +135,7 @@ public class EnemyKamikazeComportamiento : MonoBehaviour
         // Si aún existe, destruir para evitar objetos eternos
         if (gameObject != null)
         {
+            // No dropear items por timeout, solo cuando lo mate el jugador
             Destroy(gameObject);
         }
     }
@@ -187,8 +194,21 @@ public class EnemyKamikazeComportamiento : MonoBehaviour
             {
                 ph.TakeDamage(1);
             }
-            // Al chocar, destruir este enemigo (comportamiento kamikaze)
-            Destroy(gameObject);
+            // Al chocar, usar EnemyHealth para reproducir animación (sin dropear)
+            EnemyHealth health = GetComponent<EnemyHealth>();
+            if (health != null)
+            {
+                // Desactivar dropper temporalmente para que no dropee en colisión
+                if (_dropper != null)
+                {
+                    _dropper.enabled = false;
+                }
+                health.Die();
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

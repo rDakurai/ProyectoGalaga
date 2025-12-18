@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 
 public class RocketsUI : MonoBehaviour
@@ -26,12 +27,14 @@ public class RocketsUI : MonoBehaviour
 
     private void OnEnable()
     {
+        SceneManager.sceneLoaded += OnSceneLoaded;
         if (rocketLauncher != null)
             rocketLauncher.OnRocketsChanged += UpdateRockets;
     }
 
     private void OnDisable()
     {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
         if (rocketLauncher != null)
             rocketLauncher.OnRocketsChanged -= UpdateRockets;
     }
@@ -42,6 +45,31 @@ public class RocketsUI : MonoBehaviour
             UpdateRockets(rocketLauncher.CurrentRockets, rocketLauncher.MaxRockets);
         else
             UpdateRockets(0, maxSlots);
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        RebindLauncher();
+    }
+
+    private void RebindLauncher()
+    {
+        if (rocketLauncher != null)
+            rocketLauncher.OnRocketsChanged -= UpdateRockets;
+
+        rocketLauncher = FindObjectOfType<RocketLauncher>();
+
+        if (rocketLauncher != null)
+        {
+            rocketLauncher.OnRocketsChanged += UpdateRockets;
+            UpdateRockets(rocketLauncher.CurrentRockets, rocketLauncher.MaxRockets);
+        }
+        else
+        {
+            // Si no hay lanzacohetes, mostrar vacíos
+            for (int i = 0; i < rockets.Count; i++)
+                rockets[i].sprite = rocketEmpty;
+        }
     }
 
     private void UpdateRockets(int current, int max)
