@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7872d005ac46e84c81c1580270260ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 5
+  maxHealth: 10
 --- !u!114 &1083112796949684207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,3 +224,6 @@ MonoBehaviour:
   restDuration: 0.6
   rushSpeed: 20
   rushLifetime: 5
+  avoidOtherKamikaze: 1
+  separationRadius: 0.6
+  separationWeight: 1.2

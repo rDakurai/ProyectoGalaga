@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: d47b2a16424b1d748a2489d855f5ff81
+guid: 4dc4e4fabd39eee4c936c4667562e8ee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3005745806379020477
-    second: Estrellas solamente_0
+      213: -2938889624737630623
+    second: Fondo3.1_0
+  - first:
+      213: -3539333710996005267
+    second: Fondo3.1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +51,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -113,23 +116,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Estrellas solamente_0
+      name: Fondo3.1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
-        height: 535
+        width: 614
+        height: 183
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34f88ad3d127946d0800000000000000
-      internalID: -3005745806379020477
+      spriteID: 166be6b0577f637d0800000000000000
+      internalID: -2938889624737630623
       vertices: []
       indices: 
       edges: []
@@ -138,7 +141,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 976c344725ff015489ed7d93c238e29e
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +151,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Estrellas solamente_0: -3005745806379020477
+      Fondo3.1_0: -2938889624737630623
+      Fondo3.1_1: -3539333710996005267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -191,6 +191,7 @@ MonoBehaviour:
   - {fileID: 5922941841440597496, guid: 359b2d60479f50342b9e2ab479d5195b, type: 3}
   movingSprites: []
   attackingSprites: []
+  deathSprites: []
   frameRate: 10
   idleThreshold: 0.05
 --- !u!114 &9065028551990285841
@@ -205,7 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7872d005ac46e84c81c1580270260ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 2
+  maxHealth: 8
 --- !u!114 &9160770236175531384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,3 +232,6 @@ MonoBehaviour:
   verticalStrafe: 1
   verticalSpeed: 4
   verticalAmplitude: 3
+  avoidOtherShooters: 1
+  separationRadius: 0.6
+  separationWeight: 1
