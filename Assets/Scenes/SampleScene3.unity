@@ -961,6 +961,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &641325490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 641325492}
+  - component: {fileID: 641325491}
+  m_Layer: 0
+  m_Name: GiantAsteroidSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &641325491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641325490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 894d1c7496f7f01458dcaccaadc1abd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GiantAsteroidSpawner
+  spawnAfterSeconds: 60
+  giantAsteroidPrefab: {fileID: 6458402067895640515, guid: ac6a3c1ad2a5d5b4f8067457dd56a19c, type: 3}
+  player: {fileID: 22007173}
+  spawnXOffset: 2
+  verticalMargin: 0.5
+--- !u!4 &641325492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641325490}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.05, y: -0.02, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &970322878
 GameObject:
   m_ObjectHideFlags: 0
@@ -1521,7 +1570,7 @@ PrefabInstance:
       objectReference: {fileID: 22007178}
     - target: {fileID: 1567320464184071781, guid: 367b2284af9f1a84eb64b86d496f2848, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2924007256257151919, guid: 367b2284af9f1a84eb64b86d496f2848, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
@@ -2015,3 +2064,4 @@ SceneRoots:
   - {fileID: 1235177109}
   - {fileID: 444913417}
   - {fileID: 1911174403}
+  - {fileID: 641325492}
