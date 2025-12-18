@@ -85,6 +85,9 @@ public class PlayerController : MonoBehaviour
 			return;
 		}
 
+		// Reproducir sonido de disparo
+		PlayerAudioManager.PlayShoot();
+
 		// Cañón superior derecho
 		Vector3 upperRightPos = transform.position + new Vector3(cannonOffsetX, cannonOffsetY, 0f);
 		GameObject upperRightBullet = Instantiate(bulletPrefab, upperRightPos, Quaternion.identity);

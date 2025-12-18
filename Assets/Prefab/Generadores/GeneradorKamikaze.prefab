@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6505516320904276496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2233517496365234096}
+  - component: {fileID: 5858813007514570416}
+  m_Layer: 0
+  m_Name: GeneradorKamikaze
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2233517496365234096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6505516320904276496}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.99, y: 6.55, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5858813007514570416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6505516320904276496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 295a65b6e6fa9c34193253526259e5cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyGenerator
+  waves:
+  - waveName: Kamikaze 1
+    enemyPrefab: {fileID: 908629032946831499, guid: 0a9a41679a886f04ab5308342f18061c, type: 3}
+    enemyCount: 10
+    burstMode: 0
+    enemiesPerBurst: 3
+    burstCount: 0
+    simultaneousSpawns: 1
+    spawnInterval: 3
+    burstInterval: 0
+    burstCooldown: 0
+    delayBeforeWave: 0
+    spawnPosition: {x: 0, y: 0}
+    randomizeYPosition: 0
+    yRandomRange: 0
+  - waveName: Kamikaze 1
+    enemyPrefab: {fileID: 908629032946831499, guid: 0a9a41679a886f04ab5308342f18061c, type: 3}
+    enemyCount: 2
+    burstMode: 0
+    enemiesPerBurst: 3
+    burstCount: 0
+    simultaneousSpawns: 1
+    spawnInterval: 8
+    burstInterval: 0
+    burstCooldown: 0
+    delayBeforeWave: 0
+    spawnPosition: {x: 0, y: 0}
+    randomizeYPosition: 0
+    yRandomRange: 0
+  autoStart: 1
+  initialDelay: 3
+  loopWaves: 0
+  delayBetweenLoops: 5

@@ -80,6 +80,7 @@ public class Enemy2bComportamiento : MonoBehaviour
     private Coroutine _aiRoutine;
     private bool _arrived;
     private Transform _playerTransform;
+    private EnemyDropper _dropper;
 
     private void Awake()
     {
@@ -90,6 +91,7 @@ public class Enemy2bComportamiento : MonoBehaviour
         }
         _rb.gravityScale = 0f;
         _animation = GetComponent<Enemy2bAnimation>();
+        _dropper = GetComponent<EnemyDropper>();
         
         // Buscar al jugador
         GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -222,6 +224,9 @@ public class Enemy2bComportamiento : MonoBehaviour
             _animation.StartAttack1();
         }
 
+        // Reproducir sonido de ataque 1
+        EnemyAudioManager.PlayBossAttack1();
+
         // Esperar antes de disparar la bala grande
         yield return new WaitForSeconds(bigBulletSpawnDelay);
 
@@ -247,6 +252,9 @@ public class Enemy2bComportamiento : MonoBehaviour
         {
             _animation.EndAttack();
         }
+
+        // Detener sonido de ataque 1
+        EnemyAudioManager.StopBossAttack1();
     }
 
     private IEnumerator ExecuteAttack2()
@@ -256,6 +264,9 @@ public class Enemy2bComportamiento : MonoBehaviour
         {
             _animation.StartAttack2();
         }
+
+        // Reproducir sonido de ataque 2
+        EnemyAudioManager.PlayBossAttack2();
 
         // Dos ráfagas de balas hacia el jugador
         if (normalBulletPrefab != null && _playerTransform != null)
@@ -352,5 +363,13 @@ public class Enemy2bComportamiento : MonoBehaviour
         {
             _animation.EndAttack();
         }
+
+        // Detener sonido de ataque 2
+        EnemyAudioManager.StopBossAttack2();
+    }
+
+    public void OnDeath()
+    {
+        Destroy(gameObject);
     }
 }

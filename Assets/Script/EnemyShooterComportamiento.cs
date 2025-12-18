@@ -60,9 +60,11 @@ public class EnemyShooterComportamiento : MonoBehaviour
     private bool _arrived;
     private Coroutine _aiRoutine;
     private Coroutine _verticalRoutine;
+    private EnemyDropper _dropper;
 
     private void OnEnable()
     {
+        _dropper = GetComponent<EnemyDropper>();
         if (_aiRoutine == null)
         {
             _aiRoutine = StartCoroutine(AIRoutine());
@@ -133,6 +135,9 @@ public class EnemyShooterComportamiento : MonoBehaviour
             return;
         }
 
+        // Sonido de patrón de ataque 1 (arco)
+        EnemyAudioManager.PlayShooterAttack1();
+
         // Dirección base: izquierda
         Vector2 baseDir = Vector2.left;
 
@@ -143,7 +148,13 @@ public class EnemyShooterComportamiento : MonoBehaviour
             float t = (arcBulletCount == 1) ? 0f : (i / (float)(arcBulletCount - 1));
             float angle = Mathf.Lerp(-halfSpread, halfSpread, t);
             Vector2 dir = Rotate(baseDir, angle).normalized;
-            SpawnEnemyBullet(transform.position, dir);
+            SpawnEnemyBullet(transform.position, dir, 1);
+        }
+
+        // Detener solo si está loopeando (para no cortar PlayOneShot)
+        if (EnemyAudioManager.ShooterAttack1LoopEnabled)
+        {
+            EnemyAudioManager.StopShooterAttack1();
         }
     }
 
@@ -154,17 +165,26 @@ public class EnemyShooterComportamiento : MonoBehaviour
             yield break;
         }
 
+        // Sonido de patrón de ataque 2 (ráfaga central)
+        EnemyAudioManager.PlayShooterAttack2();
+
         for (int i = 0; i < centralShotsCount; i++)
         {
-            SpawnEnemyBullet(transform.position, Vector2.left);
+            SpawnEnemyBullet(transform.position, Vector2.left, 2);
             if (i < centralShotsCount - 1 && centralShotInterval > 0f)
             {
                 yield return new WaitForSeconds(centralShotInterval);
             }
         }
+
+        // Detener solo si está loopeando
+        if (EnemyAudioManager.ShooterAttack2LoopEnabled)
+        {
+            EnemyAudioManager.StopShooterAttack2();
+        }
     }
 
-    private void SpawnEnemyBullet(Vector3 position, Vector2 direction)
+    private void SpawnEnemyBullet(Vector3 position, Vector2 direction, int attackIndex)
     {
         GameObject go = Instantiate(enemyBulletPrefab, position, Quaternion.identity);
         EnemyBulletComportamiento bullet = go.GetComponent<EnemyBulletComportamiento>();
@@ -177,6 +197,16 @@ public class EnemyShooterComportamiento : MonoBehaviour
         if (!go.CompareTag("EnemyBullet"))
         {
             go.tag = "EnemyBullet";
+        }
+
+        // Reproducir sonido de disparo por tipo de ataque
+        if (attackIndex == 1)
+        {
+            EnemyAudioManager.PlayShooterAttack1();
+        }
+        else
+        {
+            EnemyAudioManager.PlayShooterAttack2();
         }
     }
 
@@ -250,5 +280,10 @@ public class EnemyShooterComportamiento : MonoBehaviour
 
         if (repel == Vector2.zero) return Vector2.zero;
         return repel.normalized;
+    }
+
+    public void OnDeath()
+    {
+        Destroy(gameObject);
     }
 }

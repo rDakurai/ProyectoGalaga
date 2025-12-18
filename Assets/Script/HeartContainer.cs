@@ -13,6 +13,7 @@ public class HeartContainer : MonoBehaviour
         if (health == null) return;
 
         health.AddMaxHealth(amount, healToMax);
+        PickupManager.Instance.RegisterHeartContainerPickup(amount);
         Destroy(gameObject);
     }
 }

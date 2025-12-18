@@ -60,6 +60,9 @@ public class SpecialAttack : MonoBehaviour
 
         Instantiate(specialPrefab, firePoint.position, firePoint.rotation);
 
+        // Reproducir sonido de ataque especial
+        PlayerAudioManager.PlaySpecialAttack();
+
         Charge = 0f;
         OnChargeChanged?.Invoke(Charge, maxCharge);
     }

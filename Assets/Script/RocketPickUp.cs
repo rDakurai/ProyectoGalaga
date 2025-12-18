@@ -12,6 +12,7 @@ public class RocketPickup : MonoBehaviour
         if (launcher == null) return;
 
         launcher.AddRockets(amount);
+        PickupManager.Instance.RegisterRocketPickup(amount);
         Destroy(gameObject);
     }
 }
