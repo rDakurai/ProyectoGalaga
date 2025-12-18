@@ -75,11 +75,18 @@ public class Enemy2bComportamiento : MonoBehaviour
     [SerializeField]
     private float maxY = 4f;
 
+    [Header("Movimiento Idle")]
+    [SerializeField] private Vector2 idleMovementRangeVertical = new Vector2(-1f, 1f);
+    [SerializeField] private Vector2 idleMovementRangeHorizontal = new Vector2(-0.5f, 0.5f);
+    [SerializeField] private float idleMovementSpeed = 1f;
+
     private Enemy2bAnimation _animation;
     private Rigidbody2D _rb;
     private Coroutine _aiRoutine;
     private bool _arrived;
     private Transform _playerTransform;
+    private EnemyDropper _dropper;
+    private Vector2 _idleTargetPosition;
 
     private void Awake()
     {
@@ -90,6 +97,9 @@ public class Enemy2bComportamiento : MonoBehaviour
         }
         _rb.gravityScale = 0f;
         _animation = GetComponent<Enemy2bAnimation>();
+        _dropper = GetComponent<EnemyDropper>();
+        
+        _idleTargetPosition = transform.position;
         
         // Buscar al jugador
         GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -158,6 +168,36 @@ public class Enemy2bComportamiento : MonoBehaviour
 
             useAttack1 = !useAttack1; // Alternar ataques
 
+            // Movimiento idle mientras espera
+            float idleTime = 0f;
+            while (idleTime < attackCooldown)
+            {
+                // Generar nueva posición aleatoria cada cierto tiempo
+                if (Vector2.Distance(transform.position, _idleTargetPosition) < 0.2f)
+                {
+                    float randomY = Random.Range(idleMovementRangeVertical.x, idleMovementRangeVertical.y);
+                    float randomX = Random.Range(idleMovementRangeHorizontal.x, idleMovementRangeHorizontal.x);
+                    
+                    Vector2 newPosition = new Vector2(
+                        transform.position.x + randomX,
+                        transform.position.y + randomY
+                    );
+                    
+                    // Clampear la posición dentro de los límites
+                    newPosition.y = Mathf.Clamp(newPosition.y, minY, maxY);
+                    
+                    _idleTargetPosition = newPosition;
+                }
+                
+                Vector2 currentPos = transform.position;
+                Vector2 newPos = Vector2.MoveTowards(currentPos, _idleTargetPosition, idleMovementSpeed * Time.deltaTime);
+                newPos.y = Mathf.Clamp(newPos.y, minY, maxY);
+                transform.position = newPos;
+                
+                idleTime += Time.deltaTime;
+                yield return null;
+            }
+
             // Mover arriba o abajo
             float targetY = centerY + (direction * verticalMoveDistance);
             yield return StartCoroutine(MoveToY(targetY));
@@ -222,6 +262,9 @@ public class Enemy2bComportamiento : MonoBehaviour
             _animation.StartAttack1();
         }
 
+        // Reproducir sonido de ataque 1
+        EnemyAudioManager.PlayBossAttack1();
+
         // Esperar antes de disparar la bala grande
         yield return new WaitForSeconds(bigBulletSpawnDelay);
 
@@ -247,6 +290,9 @@ public class Enemy2bComportamiento : MonoBehaviour
         {
             _animation.EndAttack();
         }
+
+        // Detener sonido de ataque 1
+        EnemyAudioManager.StopBossAttack1();
     }
 
     private IEnumerator ExecuteAttack2()
@@ -256,6 +302,9 @@ public class Enemy2bComportamiento : MonoBehaviour
         {
             _animation.StartAttack2();
         }
+
+        // Reproducir sonido de ataque 2
+        EnemyAudioManager.PlayBossAttack2();
 
         // Dos ráfagas de balas hacia el jugador
         if (normalBulletPrefab != null && _playerTransform != null)
@@ -352,5 +401,13 @@ public class Enemy2bComportamiento : MonoBehaviour
         {
             _animation.EndAttack();
         }
+
+        // Detener sonido de ataque 2
+        EnemyAudioManager.StopBossAttack2();
+    }
+
+    public void OnDeath()
+    {
+        Destroy(gameObject);
     }
 }

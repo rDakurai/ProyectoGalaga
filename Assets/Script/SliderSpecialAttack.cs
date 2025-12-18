@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SliderSpecialAttack : MonoBehaviour
 {
@@ -18,12 +19,14 @@ public class SliderSpecialAttack : MonoBehaviour
 
     private void OnEnable()
     {
+        SceneManager.sceneLoaded += OnSceneLoaded;
         if (specialAttack != null)
             specialAttack.OnChargeChanged += UpdateBar;
     }
 
     private void OnDisable()
     {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
         if (specialAttack != null)
             specialAttack.OnChargeChanged -= UpdateBar;
     }
@@ -32,6 +35,29 @@ public class SliderSpecialAttack : MonoBehaviour
     {
         if (specialAttack != null)
             UpdateBar(specialAttack.Charge, specialAttack.MaxCharge);
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        RebindSpecial();
+    }
+
+    private void RebindSpecial()
+    {
+        if (specialAttack != null)
+            specialAttack.OnChargeChanged -= UpdateBar;
+
+        specialAttack = FindObjectOfType<SpecialAttack>();
+
+        if (specialAttack != null)
+        {
+            specialAttack.OnChargeChanged += UpdateBar;
+            UpdateBar(specialAttack.Charge, specialAttack.MaxCharge);
+        }
+        else if (slider != null)
+        {
+            slider.value = 0f;
+        }
     }
 
     private void UpdateBar(float current, float max)

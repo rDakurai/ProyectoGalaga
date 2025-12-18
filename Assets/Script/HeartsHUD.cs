@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 
 public class HeartsUI : MonoBehaviour
@@ -23,12 +24,14 @@ public class HeartsUI : MonoBehaviour
 
     private void OnEnable()
     {
+        SceneManager.sceneLoaded += OnSceneLoaded;
         if (playerHealth != null)
             playerHealth.OnHealthChanged += UpdateHearts;
     }
 
     private void OnDisable()
     {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
         if (playerHealth != null)
             playerHealth.OnHealthChanged -= UpdateHearts;
     }
@@ -36,6 +39,31 @@ public class HeartsUI : MonoBehaviour
     private void Start()
     {
         UpdateHearts(playerHealth.CurrentHealth, playerHealth.MaxHealth);
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        RebindPlayer();
+    }
+
+    private void RebindPlayer()
+    {
+        if (playerHealth != null)
+            playerHealth.OnHealthChanged -= UpdateHearts;
+
+        playerHealth = FindObjectOfType<PlayerHealth>();
+
+        if (playerHealth != null)
+        {
+            playerHealth.OnHealthChanged += UpdateHearts;
+            UpdateHearts(playerHealth.CurrentHealth, playerHealth.MaxHealth);
+        }
+        else
+        {
+            // Si no hay PlayerHealth en la nueva escena, mostrar vacíos
+            for (int i = 0; i < hearts.Count; i++)
+                hearts[i].sprite = heartEmpty;
+        }
     }
 
     private void UpdateHearts(int current, int max)
