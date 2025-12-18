@@ -20,10 +20,10 @@ public class EnemyHealth : MonoBehaviour
 
     [Header("Animación de Muerte")]
     [SerializeField]
-    private GameObject[] deathAnimations; // Array de prefabs de animación
+    private GameObject[] deathAnimations;
 
     [SerializeField, Min(0f)]
-    private float deathAnimationDuration = 1f; // Duración antes de destruir la animación
+    private float deathAnimationDuration = 1f;
 
     private int _currentHealth;
     private bool _dead;
@@ -42,42 +42,32 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (_dead)
-        {
-            return;
-        }
+        if (_dead) return;
 
         _currentHealth -= damage;
         OnHealthChanged?.Invoke(_currentHealth, maxHealth);
 
-        // Reproducir sonido de golpe si aún no muere
         if (_currentHealth > 0)
-        {
             EnemyAudioManager.PlayHit();
-        }
 
         if (_currentHealth <= 0)
-        {
             Die();
-        }
     }
 
     public void Die()
     {
-        if (_dead)
-            return;
-
+        if (_dead) return;
         _dead = true;
 
-        // Sumar puntos al score
+        // ✅ SUMAR SCORE
         if (GameManager.Instance != null)
             GameManager.Instance.AddScore(isBoss ? bossScoreOnDeath : scoreOnDeath);
 
-        // Reproducir sonido de muerte (boss o normal)
+        // ✅ AUDIO
         bool bossComponent = GetComponent<Enemy2bComportamiento>() != null;
+
         if (isBoss || bossComponent)
         {
-            // Detener todos los sonidos del boss antes de que suene el de muerte
             EnemyAudioManager.StopBossAttack1();
             EnemyAudioManager.StopBossAttack2();
             EnemyAudioManager.PlayBossDeath();
@@ -87,7 +77,7 @@ public class EnemyHealth : MonoBehaviour
             EnemyAudioManager.PlayDeath();
         }
 
-        // Evitar más colisiones mientras reproduce la animación
+        // Desactivar colisiones
         foreach (var col in GetComponentsInChildren<Collider2D>())
             col.enabled = false;
 
@@ -99,33 +89,29 @@ public class EnemyHealth : MonoBehaviour
             rb.simulated = false;
         }
 
-        // Dropear items antes de destruir
+        // Drop items
         var dropper = GetComponent<EnemyDropper>();
         if (dropper != null)
             dropper.DropItems();
 
-        // Reproducir animación de muerte intangible
+        // Animación de muerte
         if (deathAnimations != null && deathAnimations.Length > 0)
         {
-            // Seleccionar animación aleatoria del array
-            int randomIndex = UnityEngine.Random.Range(0, deathAnimations.Length);
-            GameObject selectedAnim = deathAnimations[randomIndex];
-            
-            if (selectedAnim != null)
+            int index = UnityEngine.Random.Range(0, deathAnimations.Length);
+            GameObject anim = deathAnimations[index];
+
+            if (anim != null)
             {
-                // Instanciar en la posición del enemigo
-                GameObject animInstance = Instantiate(selectedAnim, transform.position, transform.rotation);
-                
-                // Asegurar que no tenga colisiones
-                foreach (var col in animInstance.GetComponentsInChildren<Collider2D>())
+                GameObject instance = Instantiate(anim, transform.position, transform.rotation);
+
+                foreach (var col in instance.GetComponentsInChildren<Collider2D>())
                     col.enabled = false;
-                
-                // Destruir después de la duración
-                Destroy(animInstance, deathAnimationDuration);
+
+                Destroy(instance, deathAnimationDuration);
             }
         }
 
-        // Cambio de nivel o victoria (SE HACE EN LevelManager)
+        // ✅ CAMBIO DE NIVEL O VICTORIA (SE HACE EN LevelManager)
         if (isBoss || bossComponent)
         {
             LevelManager lm = FindObjectOfType<LevelManager>();
@@ -136,7 +122,7 @@ public class EnemyHealth : MonoBehaviour
 
                 if (isFinalBoss)
                 {
-                    StartCoroutine(VictoryAfterDelay());
+                    lm.StartCoroutine(VictoryAfterDelay());
                 }
                 else
                 {
@@ -150,7 +136,7 @@ public class EnemyHealth : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private IEnumerator VictoryAfterDelay()
+    System.Collections.IEnumerator VictoryAfterDelay()
     {
         yield return new WaitForSeconds(nextLevelDelay);
         if (GameManager.Instance != null)
