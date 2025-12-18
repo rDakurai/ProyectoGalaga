@@ -35,13 +35,10 @@ public class Asteroid : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // Movimiento
         rb.linearVelocity = direction.normalized * moveSpeed;
 
-        // Rotación del asteroide
         rb.MoveRotation(rb.rotation + rotateSpeed * Time.fixedDeltaTime);
 
-        // Flama
         UpdateFlame();
     }
 
@@ -53,4 +50,11 @@ public class Asteroid : MonoBehaviour
 
         flame.rotation = Quaternion.identity;
     }
+
+    public void SetDirection(Vector2 dir) => direction = dir;
+    public void SetMoveSpeed(float spd) => moveSpeed = spd;
+    public void SetRotateSpeed(float rot) => rotateSpeed = rot;
+
+
+
 }

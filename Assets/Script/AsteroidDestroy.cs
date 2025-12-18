@@ -8,32 +8,32 @@ public class AsteroidDestroy : MonoBehaviour
 
     private bool canDamage = true;
 
-    // =========================
-    // Animación al destruirse
-    // =========================
     [Header("Animación al morir (sprites)")]
-    [SerializeField] private SpriteRenderer targetRenderer;   // renderer que cambiará sprites
-    [SerializeField] private Sprite[] destroyFrames;          // frames de explosión / muerte
-    [SerializeField] private float fps = 12f;                 // velocidad animación
+    [SerializeField] private SpriteRenderer targetRenderer;
+    [SerializeField] private Sprite[] destroyFrames;
+    [SerializeField] private float fps = 12f;
     [SerializeField] private bool disableCollidersOnDestroy = true;
+
+    [Header("Opcional")]
+    [SerializeField] private GameObject flameObject;
+    [SerializeField] private Behaviour[] disableScriptsOnDeath;
 
     private bool isDying;
 
     private void Awake()
     {
         if (targetRenderer == null)
-            targetRenderer = GetComponent<SpriteRenderer>();
+            targetRenderer = GetComponentInChildren<SpriteRenderer>();
+
+        if (flameObject == null)
+        {
+            Transform t = transform.Find("Flame");
+            if (t != null) flameObject = t.gameObject;
+        }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        TryDamage(other);
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        TryDamage(other);
-    }
+    private void OnTriggerEnter2D(Collider2D other) => TryDamage(other);
+    private void OnTriggerStay2D(Collider2D other) => TryDamage(other);
 
     private void TryDamage(Collider2D other)
     {
@@ -55,9 +55,6 @@ public class AsteroidDestroy : MonoBehaviour
         canDamage = true;
     }
 
-    // ============================================================
-    // LLAMA ESTO en vez de Destroy(gameObject)
-    // ============================================================
     public void DestroyWithAnimation()
     {
         if (isDying) return;
@@ -68,13 +65,20 @@ public class AsteroidDestroy : MonoBehaviour
     {
         isDying = true;
 
-        // Opcional: apagar colisiones para que no siga dañando mientras explota
         if (disableCollidersOnDestroy)
         {
-            foreach (var c in GetComponents<Collider2D>()) c.enabled = false;
+            foreach (var c in GetComponentsInChildren<Collider2D>())
+                c.enabled = false;
         }
 
-        // Si no hay frames, destruye normal
+        if (disableScriptsOnDeath != null)
+        {
+            foreach (var s in disableScriptsOnDeath)
+                if (s != null) s.enabled = false;
+        }
+
+        if (flameObject != null) flameObject.SetActive(false);
+
         if (targetRenderer == null || destroyFrames == null || destroyFrames.Length == 0)
         {
             Destroy(gameObject);
@@ -85,7 +89,9 @@ public class AsteroidDestroy : MonoBehaviour
 
         for (int i = 0; i < destroyFrames.Length; i++)
         {
-            targetRenderer.sprite = destroyFrames[i];
+            if (destroyFrames[i] != null)
+                targetRenderer.sprite = destroyFrames[i];
+
             yield return new WaitForSeconds(wait);
         }
 

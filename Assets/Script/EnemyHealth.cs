@@ -3,8 +3,10 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     [Header("Vida")]
-    [SerializeField, Min(1)]
-    private int maxHealth = 2;
+    [SerializeField, Min(1)] private int maxHealth = 2;
+
+    [Header("Score")]
+    [SerializeField] private int scoreOnDeath = 10;
 
     private int _currentHealth;
     private bool _dead;
@@ -16,33 +18,24 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (_dead)
-        {
-            return;
-        }
+        if (_dead) return;
 
         _currentHealth -= damage;
 
         if (_currentHealth <= 0)
-        {
             Die();
-        }
     }
 
     private void Die()
     {
-        if (_dead)
-        {
-            return;
-        }
-
+        if (_dead) return;
         _dead = true;
 
-        // Evitar más colisiones mientras reproduce la animación
+        if (ScoreManager.Instance != null)
+            ScoreManager.Instance.AddScore(scoreOnDeath);
+
         foreach (var col in GetComponentsInChildren<Collider2D>())
-        {
             col.enabled = false;
-        }
 
         var rb = GetComponent<Rigidbody2D>();
         if (rb != null)
@@ -58,3 +51,4 @@ public class EnemyHealth : MonoBehaviour
     public int CurrentHealth => _currentHealth;
     public int MaxHealth => maxHealth;
 }
+
