@@ -1,11 +1,22 @@
 using UnityEngine;
 using System;
+using System.Collections;
 
 public class EnemyHealth : MonoBehaviour
 {
     [Header("Vida")]
     [SerializeField, Min(1)]
     private int maxHealth = 2;
+
+    [Header("Puntaje")]
+    [SerializeField] private int scoreOnDeath = 10;
+    [SerializeField] private int bossScoreOnDeath = 100;
+
+    [Header("Boss / Niveles")]
+    [SerializeField] private bool isBoss = false;
+    [SerializeField] private bool isFinalBoss = false;
+    [SerializeField] private string nextLevelScene = "SampleScene2";
+    [SerializeField] private float nextLevelDelay = 5f;
 
     [Header("Animación de Muerte")]
     [SerializeField]
@@ -23,6 +34,10 @@ public class EnemyHealth : MonoBehaviour
     {
         _currentHealth = maxHealth;
         OnHealthChanged?.Invoke(_currentHealth, maxHealth);
+
+        // Detectar boss automáticamente si tiene el componente
+        if (!isBoss && GetComponent<Enemy2bComportamiento>() != null)
+            isBoss = true;
     }
 
     public void TakeDamage(int damage)
@@ -50,15 +65,17 @@ public class EnemyHealth : MonoBehaviour
     public void Die()
     {
         if (_dead)
-        {
             return;
-        }
 
         _dead = true;
 
+        // Sumar puntos al score
+        if (GameManager.Instance != null)
+            GameManager.Instance.AddScore(isBoss ? bossScoreOnDeath : scoreOnDeath);
+
         // Reproducir sonido de muerte (boss o normal)
-        var bossComponent = GetComponent<Enemy2bComportamiento>();
-        if (bossComponent != null)
+        bool bossComponent = GetComponent<Enemy2bComportamiento>() != null;
+        if (isBoss || bossComponent)
         {
             // Detener todos los sonidos del boss antes de que suene el de muerte
             EnemyAudioManager.StopBossAttack1();
@@ -72,9 +89,7 @@ public class EnemyHealth : MonoBehaviour
 
         // Evitar más colisiones mientras reproduce la animación
         foreach (var col in GetComponentsInChildren<Collider2D>())
-        {
             col.enabled = false;
-        }
 
         var rb = GetComponent<Rigidbody2D>();
         if (rb != null)
@@ -87,9 +102,7 @@ public class EnemyHealth : MonoBehaviour
         // Dropear items antes de destruir
         var dropper = GetComponent<EnemyDropper>();
         if (dropper != null)
-        {
             dropper.DropItems();
-        }
 
         // Reproducir animación de muerte intangible
         if (deathAnimations != null && deathAnimations.Length > 0)
@@ -105,35 +118,43 @@ public class EnemyHealth : MonoBehaviour
                 
                 // Asegurar que no tenga colisiones
                 foreach (var col in animInstance.GetComponentsInChildren<Collider2D>())
-                {
                     col.enabled = false;
-                }
                 
                 // Destruir después de la duración
                 Destroy(animInstance, deathAnimationDuration);
             }
         }
 
-        // Llamar a OnDeath si existe en el enemigo específico
-        var kamikaze = GetComponent<EnemyKamikazeComportamiento>();
-        if (kamikaze != null)
+        // Cambio de nivel o victoria (SE HACE EN LevelManager)
+        if (isBoss || bossComponent)
         {
-            // Kamikaze ya tiene integrado el drop, solo destruir
-        }
+            LevelManager lm = FindObjectOfType<LevelManager>();
 
-        var shooter = GetComponent<EnemyShooterComportamiento>();
-        if (shooter != null)
-        {
-            // Shooter ya tiene integrado el drop, solo destruir
-        }
+            if (lm != null)
+            {
+                lm.ShowMessage("¡Jefe eliminado! Preparando siguiente nivel...", 2f);
 
-        var boss = GetComponent<Enemy2bComportamiento>();
-        if (boss != null)
-        {
-            // Boss ya tiene integrado el drop, solo destruir
+                if (isFinalBoss)
+                {
+                    StartCoroutine(VictoryAfterDelay());
+                }
+                else
+                {
+                    lm.nextSceneName = nextLevelScene;
+                    lm.nextLevelDelay = nextLevelDelay;
+                    lm.LoadNextLevelAfterDelay();
+                }
+            }
         }
 
         Destroy(gameObject);
+    }
+
+    private IEnumerator VictoryAfterDelay()
+    {
+        yield return new WaitForSeconds(nextLevelDelay);
+        if (GameManager.Instance != null)
+            GameManager.Instance.Victory();
     }
 
     public int CurrentHealth => _currentHealth;
