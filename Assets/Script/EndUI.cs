@@ -15,7 +15,14 @@ public class EndUI : MonoBehaviour
         int score = PlayerPrefs.GetInt("LAST_SCORE", 0);
         string result = PlayerPrefs.GetString("LAST_RESULT", "GAME OVER");
 
-        if (resultText != null) resultText.text = result;
+        if (resultText != null)
+        {
+            if (result == "VICTORY")
+            resultText.text = "¡VICTORIA!\nMISIÓN COMPLETADA";
+            else
+            resultText.text = "GAME OVER";
+        }
+
         if (scoreText != null) scoreText.text = "SCORE: " + score;
     }
 
