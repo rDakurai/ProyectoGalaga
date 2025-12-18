@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: b58fb5f187903ef4c9c257bef7faa4aa
+guid: 89b6a9e0df9fdad40ac62ec85e734995
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6301429047446442448
-    second: gold_0
+      213: -4673536048321637515
+    second: copper_0
   - first:
-      213: -6116963357262179218
-    second: gold_1
+      213: 631623507490633193
+    second: copper_1
   - first:
-      213: -5275974221471470513
-    second: gold_2
+      213: 9185080709387706225
+    second: copper_2
   - first:
-      213: 8413302526757980907
-    second: gold_3
+      213: 8930431889640237112
+    second: copper_3
   - first:
-      213: -5533810949261644772
-    second: gold_4
+      213: 8930958850111881413
+    second: copper_4
   - first:
-      213: 6281173559678341316
-    second: gold_5
+      213: -3304253531636517484
+    second: copper_5
   - first:
-      213: -407856595642065811
-    second: gold_6
+      213: 4312774026939199897
+    second: copper_6
   - first:
-      213: 7915915593761736627
-    second: gold_7
+      213: -7310034424992447210
+    second: copper_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,7 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gold_0
+      name: copper_0
       rect:
         serializedVersion: 2
         x: 0
@@ -136,14 +136,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 03e60a1faa3dc88a0800000000000000
-      internalID: -6301429047446442448
+      spriteID: 5735ecab9b3442fb0800000000000000
+      internalID: -4673536048321637515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_1
+      name: copper_1
       rect:
         serializedVersion: 2
         x: 17
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e649e425c3e2c1ba0800000000000000
-      internalID: -6116963357262179218
+      spriteID: 9e5f3cbcb3af3c800800000000000000
+      internalID: 631623507490633193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_2
+      name: copper_2
       rect:
         serializedVersion: 2
         x: 36
@@ -180,14 +180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4c231d1669f7c6b0800000000000000
-      internalID: -5275974221471470513
+      spriteID: 17fd8549d36f77f70800000000000000
+      internalID: 9185080709387706225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_3
+      name: copper_3
       rect:
         serializedVersion: 2
         x: 55
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bea4e4f821e02c470800000000000000
-      internalID: 8413302526757980907
+      spriteID: 838a3d8fc744feb70800000000000000
+      internalID: 8930431889640237112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_4
+      name: copper_4
       rect:
         serializedVersion: 2
         x: 73
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1ca713d244f333b0800000000000000
-      internalID: -5533810949261644772
+      spriteID: 5c0cc8481c321fb70800000000000000
+      internalID: 8930958850111881413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_5
+      name: copper_5
       rect:
         serializedVersion: 2
         x: 89
@@ -246,14 +246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c0143dc2163b2750800000000000000
-      internalID: 6281173559678341316
+      spriteID: 495b9fe6beee422d0800000000000000
+      internalID: -3304253531636517484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_6
+      name: copper_6
       rect:
         serializedVersion: 2
         x: 104
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6c54715690075af0800000000000000
-      internalID: -407856595642065811
+      spriteID: 991fd30a02d0adb30800000000000000
+      internalID: 4312774026939199897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold_7
+      name: copper_7
       rect:
         serializedVersion: 2
         x: 119
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b7c42eca4bfadd60800000000000000
-      internalID: 7915915593761736627
+      spriteID: 615c272bb6a8d8a90800000000000000
+      internalID: -7310034424992447210
       vertices: []
       indices: 
       edges: []
@@ -310,14 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      gold_0: -6301429047446442448
-      gold_1: -6116963357262179218
-      gold_2: -5275974221471470513
-      gold_3: 8413302526757980907
-      gold_4: -5533810949261644772
-      gold_5: 6281173559678341316
-      gold_6: -407856595642065811
-      gold_7: 7915915593761736627
+      copper_0: -4673536048321637515
+      copper_1: 631623507490633193
+      copper_2: 9185080709387706225
+      copper_3: 8930431889640237112
+      copper_4: 8930958850111881413
+      copper_5: -3304253531636517484
+      copper_6: 4312774026939199897
+      copper_7: -7310034424992447210
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

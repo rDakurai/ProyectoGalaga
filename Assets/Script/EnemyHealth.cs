@@ -5,8 +5,10 @@ using System.Collections;
 public class EnemyHealth : MonoBehaviour
 {
     [Header("Vida")]
-    [SerializeField, Min(1)]
-    private int maxHealth = 2;
+    [SerializeField, Min(1)] private int maxHealth = 2;
+
+    [Header("Score")]
+    [SerializeField] private int scoreOnDeath = 10;
 
     [Header("Puntaje")]
     [SerializeField] private int scoreOnDeath = 10;
@@ -59,25 +61,9 @@ public class EnemyHealth : MonoBehaviour
         if (_dead) return;
         _dead = true;
 
-        // ✅ SUMAR SCORE
-        if (GameManager.Instance != null)
-            GameManager.Instance.AddScore(isBoss ? bossScoreOnDeath : scoreOnDeath);
+        if (ScoreManager.Instance != null)
+            ScoreManager.Instance.AddScore(scoreOnDeath);
 
-        // ✅ AUDIO
-        bool bossComponent = GetComponent<Enemy2bComportamiento>() != null;
-
-        if (isBoss || bossComponent)
-        {
-            EnemyAudioManager.StopBossAttack1();
-            EnemyAudioManager.StopBossAttack2();
-            EnemyAudioManager.PlayBossDeath();
-        }
-        else
-        {
-            EnemyAudioManager.PlayDeath();
-        }
-
-        // Desactivar colisiones
         foreach (var col in GetComponentsInChildren<Collider2D>())
             col.enabled = false;
 
@@ -146,3 +132,4 @@ public class EnemyHealth : MonoBehaviour
     public int CurrentHealth => _currentHealth;
     public int MaxHealth => maxHealth;
 }
+

@@ -183,7 +183,7 @@ MonoBehaviour:
   - {fileID: 5137461850612457934, guid: 815cd41721bc59a468a594f45007acb7, type: 3}
   - {fileID: -1815554770106497152, guid: 815cd41721bc59a468a594f45007acb7, type: 3}
   - {fileID: -3101797912231229705, guid: 815cd41721bc59a468a594f45007acb7, type: 3}
-  frameRate: 25
-  speed: 10
+  frameRate: 12
+  speed: 12
   damage: 40
   lifetime: 4

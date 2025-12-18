@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 237462408543839207, guid: 5397facc88f833041b821679cac3397a, type: 3}
       propertyPath: scoreOnDeath
-      value: 500
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1071983414357774570, guid: 5397facc88f833041b821679cac3397a, type: 3}
       propertyPath: moveSpeed
