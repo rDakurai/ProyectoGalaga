@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 5970ddc6126cd2f4ba27ef6e233b0f19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9018844002185466935
+    second: Slash bullet big_0
+  - first:
+      213: -6451982438796549257
+    second: Slash bullet big_1
+  - first:
+      213: 7597819044737779726
+    second: Slash bullet big_2
+  - first:
+      213: 2815415904959094517
+    second: Slash bullet big_3
+  - first:
+      213: 3155135768600292704
+    second: Slash bullet big_4
+  - first:
+      213: 6920725780068789674
+    second: Slash bullet big_5
+  - first:
+      213: -6951407426856831726
+    second: Slash bullet big_6
+  - first:
+      213: -4734963095273547878
+    second: Slash bullet big_7
+  - first:
+      213: -2351672960128120619
+    second: Slash bullet big_8
+  - first:
+      213: -3361328381126217272
+    second: Slash bullet big_9
+  - first:
+      213: 4333122508525496851
+    second: Slash bullet big_10
+  - first:
+      213: -8863456434180569958
+    second: Slash bullet big_11
+  - first:
+      213: 2139030532017966799
+    second: Slash bullet big_12
+  - first:
+      213: 7557833248164738056
+    second: Slash bullet big_13
+  - first:
+      213: 4728849636026879609
+    second: Slash bullet big_14
+  - first:
+      213: -3921877367138824371
+    second: Slash bullet big_15
+  - first:
+      213: 7546582902357155418
+    second: Slash bullet big_16
+  - first:
+      213: -3509462285825172345
+    second: Slash bullet big_17
+  - first:
+      213: 7623611996548067804
+    second: Slash bullet big_18
+  - first:
+      213: 6012842100750266314
+    second: Slash bullet big_19
+  - first:
+      213: 7900476113052617867
+    second: Slash bullet big_20
+  - first:
+      213: -3813573725618985943
+    second: Slash bullet big_21
+  - first:
+      213: 8618298178864608736
+    second: Slash bullet big_22
+  - first:
+      213: -8748949658138748071
+    second: Slash bullet big_23
+  - first:
+      213: 8553145107555898638
+    second: Slash bullet big_24
+  - first:
+      213: -8917218426324588807
+    second: Slash bullet big_25
+  - first:
+      213: -4117059201472282963
+    second: Slash bullet big_26
+  - first:
+      213: -7110537883310583219
+    second: Slash bullet big_27
+  - first:
+      213: -6711327945067287580
+    second: Slash bullet big_28
+  - first:
+      213: 8116007143508866288
+    second: Slash bullet big_29
+  - first:
+      213: 8162260233439177280
+    second: Slash bullet big_30
+  - first:
+      213: -6361873767075234101
+    second: Slash bullet big_31
+  - first:
+      213: -8336775957783722472
+    second: Slash bullet big_32
+  - first:
+      213: 5007306909927619693
+    second: Slash bullet big_33
+  - first:
+      213: -6735377683789203402
+    second: Slash bullet big_34
+  - first:
+      213: 3666227868627501784
+    second: Slash bullet big_35
+  - first:
+      213: 6991621003645396563
+    second: Slash bullet big_36
+  - first:
+      213: -7257073691332435741
+    second: Slash bullet big_37
+  - first:
+      213: -846998247249937562
+    second: Slash bullet big_38
+  - first:
+      213: 2952155250572031493
+    second: Slash bullet big_39
+  - first:
+      213: 3377780535675047661
+    second: Slash bullet big_40
+  - first:
+      213: 4848943147418250548
+    second: Slash bullet big_41
+  - first:
+      213: -2627798427795716480
+    second: Slash bullet big_42
+  - first:
+      213: 563618316770815621
+    second: Slash bullet big_43
+  - first:
+      213: 6728986846441362506
+    second: Slash bullet big_44
+  - first:
+      213: 4280400674095717269
+    second: Slash bullet big_45
+  - first:
+      213: 7361080458257367967
+    second: Slash bullet big_46
+  - first:
+      213: -5296383611176893503
+    second: Slash bullet big_47
+  - first:
+      213: 7536170975922645985
+    second: Slash bullet big_48
+  - first:
+      213: 1957101052110285650
+    second: Slash bullet big_49
+  - first:
+      213: 5721391791378832298
+    second: Slash bullet big_50
+  - first:
+      213: 6501286246291910413
+    second: Slash bullet big_51
+  - first:
+      213: -866163741043234358
+    second: Slash bullet big_52
+  - first:
+      213: 7411590021856703082
+    second: Slash bullet big_53
+  - first:
+      213: -6847524703478091774
+    second: Slash bullet big_54
+  - first:
+      213: -7038444214584826286
+    second: Slash bullet big_55
+  - first:
+      213: 2283320659730191009
+    second: Slash bullet big_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1074
+        width: 338
+        height: 404
+      alignment: 9
+      pivot: {x: 0.44236678, y: 0.3568073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7345dea06de592d70800000000000000
+      internalID: 9018844002185466935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1074
+        width: 312
+        height: 404
+      alignment: 9
+      pivot: {x: 0.41296777, y: 0.32758445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773297ee724f576a0800000000000000
+      internalID: -6451982438796549257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1073
+        width: 327
+        height: 405
+      alignment: 9
+      pivot: {x: 0.38085583, y: 0.35861817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e080b4d8a20e07960800000000000000
+      internalID: 7597819044737779726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 6
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 628
+        width: 330
+        height: 428
+      alignment: 9
+      pivot: {x: 0.3719941, y: 0.33803707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e0e9f70bf30a140800000000000000
+      internalID: 4728849636026879609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 627
+        width: 337
+        height: 428
+      alignment: 9
+      pivot: {x: 0.45178965, y: 0.34942514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c92cc15a2eb4fc0800000000000000
+      internalID: -3509462285825172345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 627
+        width: 313
+        height: 428
+      alignment: 9
+      pivot: {x: 0.37542316, y: 0.34562913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd177af18b28cc960800000000000000
+      internalID: 7623611996548067804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 125
+        width: 332
+        height: 499
+      alignment: 9
+      pivot: {x: 0.3776587, y: 0.3882144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924a7b7d6e6731bc0800000000000000
+      internalID: -3813573725618985943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 124
+        width: 337
+        height: 499
+      alignment: 9
+      pivot: {x: 0.45018265, y: 0.39798206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5fe9f28885a9770800000000000000
+      internalID: 8618298178864608736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 8
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 125
+        width: 310
+        height: 500
+      alignment: 9
+      pivot: {x: 0.41963896, y: 0.38193908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daebdf828744dd6c0800000000000000
+      internalID: -4117059201472282963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4cef5e6886df24c438731aa51778c7d6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1: 9018844002185466935
+      2: -6451982438796549257
+      3: 7597819044737779726
+      4: -3509462285825172345
+      5: 7623611996548067804
+      6: 4728849636026879609
+      7: 8618298178864608736
+      8: -4117059201472282963
+      9: -3813573725618985943
+      Slash bullet big_10: 4333122508525496851
+      Slash bullet big_11: -8863456434180569958
+      Slash bullet big_12: 2139030532017966799
+      Slash bullet big_13: 7557833248164738056
+      Slash bullet big_15: -3921877367138824371
+      Slash bullet big_16: 7546582902357155418
+      Slash bullet big_19: 6012842100750266314
+      Slash bullet big_20: 7900476113052617867
+      Slash bullet big_23: -8748949658138748071
+      Slash bullet big_24: 8553145107555898638
+      Slash bullet big_25: -8917218426324588807
+      Slash bullet big_27: -7110537883310583219
+      Slash bullet big_28: -6711327945067287580
+      Slash bullet big_29: 8116007143508866288
+      Slash bullet big_3: 2815415904959094517
+      Slash bullet big_30: 8162260233439177280
+      Slash bullet big_31: -6361873767075234101
+      Slash bullet big_32: -8336775957783722472
+      Slash bullet big_33: 5007306909927619693
+      Slash bullet big_34: -6735377683789203402
+      Slash bullet big_35: 3666227868627501784
+      Slash bullet big_36: 6991621003645396563
+      Slash bullet big_37: -7257073691332435741
+      Slash bullet big_38: -846998247249937562
+      Slash bullet big_39: 2952155250572031493
+      Slash bullet big_4: 3155135768600292704
+      Slash bullet big_40: 3377780535675047661
+      Slash bullet big_41: 4848943147418250548
+      Slash bullet big_42: -2627798427795716480
+      Slash bullet big_43: 563618316770815621
+      Slash bullet big_44: 6728986846441362506
+      Slash bullet big_45: 4280400674095717269
+      Slash bullet big_46: 7361080458257367967
+      Slash bullet big_47: -5296383611176893503
+      Slash bullet big_48: 7536170975922645985
+      Slash bullet big_49: 1957101052110285650
+      Slash bullet big_5: 6920725780068789674
+      Slash bullet big_50: 5721391791378832298
+      Slash bullet big_51: 6501286246291910413
+      Slash bullet big_52: -866163741043234358
+      Slash bullet big_53: 7411590021856703082
+      Slash bullet big_54: -6847524703478091774
+      Slash bullet big_55: -7038444214584826286
+      Slash bullet big_56: 2283320659730191009
+      Slash bullet big_6: -6951407426856831726
+      Slash bullet big_7: -4734963095273547878
+      Slash bullet big_8: -2351672960128120619
+      Slash bullet big_9: -3361328381126217272
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

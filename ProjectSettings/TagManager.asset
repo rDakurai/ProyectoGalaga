@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - EnemyBullet
   - PlayerAttack
+  - BigBullet
   layers:
   - Default
   - TransparentFX
@@ -43,6 +44,21 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Fondo1
+    uniqueID: 324592117
+    locked: 0
+  - name: Fondo2
+    uniqueID: 2574928667
+    locked: 0
+  - name: Fondo3
+    uniqueID: 2172144307
+    locked: 0
+  - name: Fondo4
+    uniqueID: 1236428455
+    locked: 0
+  - name: Fondo5
+    uniqueID: 3558455943
     locked: 0
   m_RenderingLayers:
   - Default

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d47b2a16424b1d748a2489d855f5ff81
+guid: 33a1ab29202235d4c9490bd9cc1eb843
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3005745806379020477
-    second: Estrellas solamente_0
+      213: 130452656225014213
+    second: Desert_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,12 +37,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Estrellas solamente_0
+      name: Desert_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
-        height: 535
+        width: 684
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34f88ad3d127946d0800000000000000
-      internalID: -3005745806379020477
+      spriteID: 5c15c4aeff57fc100800000000000000
+      internalID: 130452656225014213
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Estrellas solamente_0: -3005745806379020477
+      Desert_0: 130452656225014213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

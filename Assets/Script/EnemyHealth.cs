@@ -7,6 +7,7 @@ public class EnemyHealth : MonoBehaviour
     private int maxHealth = 2;
 
     private int _currentHealth;
+    private bool _dead;
 
     private void Awake()
     {
@@ -15,6 +16,11 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        if (_dead)
+        {
+            return;
+        }
+
         _currentHealth -= damage;
 
         if (_currentHealth <= 0)
@@ -25,7 +31,27 @@ public class EnemyHealth : MonoBehaviour
 
     private void Die()
     {
-        // Aquí puedes agregar efectos de muerte, puntuación, etc.
+        if (_dead)
+        {
+            return;
+        }
+
+        _dead = true;
+
+        // Evitar más colisiones mientras reproduce la animación
+        foreach (var col in GetComponentsInChildren<Collider2D>())
+        {
+            col.enabled = false;
+        }
+
+        var rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+            rb.angularVelocity = 0f;
+            rb.simulated = false;
+        }
+
         Destroy(gameObject);
     }
 
