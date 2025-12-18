@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using System;
 
 public class RocketLauncher : MonoBehaviour
@@ -26,7 +27,8 @@ public class RocketLauncher : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(shootKey))
+        var keyboard = Keyboard.current;
+        if (keyboard != null && keyboard.rKey.wasPressedThisFrame)
             TryShoot();
     }
 

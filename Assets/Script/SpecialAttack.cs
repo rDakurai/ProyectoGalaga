@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using System;
 
 public class SpecialAttack : MonoBehaviour
@@ -32,7 +33,8 @@ public class SpecialAttack : MonoBehaviour
     {
         AddCharge(chargePerSecond * Time.deltaTime);
 
-        if (Input.GetKeyDown(specialKey) && Charge >= maxCharge)
+        var keyboard = Keyboard.current;
+        if (keyboard != null && keyboard.spaceKey.wasPressedThisFrame && Charge >= maxCharge)
             UseSpecial();
     }
 
