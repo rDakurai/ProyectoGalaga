@@ -555,9 +555,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 519e9bc0d7fa03b4eb1711ac958c589d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EndUI
-  resultText: {fileID: 0}
-  scoreText: {fileID: 0}
-  gameSceneName: Game
+  resultText: {fileID: 534566350}
+  scoreText: {fileID: 359757999}
+  gameSceneName: SampleScene
   menuSceneName: Menu
 --- !u!4 &842652815
 Transform:
